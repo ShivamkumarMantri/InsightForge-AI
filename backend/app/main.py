@@ -1,9 +1,16 @@
 import os
+import sys
 import time
 import asyncio
 from pathlib import Path
 from contextlib import asynccontextmanager
 from dotenv import load_dotenv
+
+# Ensure backend directory is in sys.path so app modules can always be imported
+backend_dir = str(Path(__file__).resolve().parent.parent)
+if backend_dir not in sys.path:
+    sys.path.insert(0, backend_dir)
+
 from fastapi import FastAPI, Request, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.exceptions import RequestValidationError
