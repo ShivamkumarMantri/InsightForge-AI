@@ -36,6 +36,7 @@ class ChatRequest(BaseModel):
         return v
 
 @router.post("", status_code=status.HTTP_200_OK)
+@router.post("/", status_code=status.HTTP_200_OK, include_in_schema=False)
 async def chat_with_analyst(req_data: ChatRequest, request: Request):
     """
     Conversational analysis endpoint maintaining context across queries:

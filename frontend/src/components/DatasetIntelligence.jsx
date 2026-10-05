@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AIAnalystChat from './AIAnalystChat';
 import ExecutiveDashboard from './ExecutiveDashboard';
+import { apiFetch } from '../utils/api';
 import {
   Layers,
   Columns,
@@ -56,33 +57,11 @@ export default function DatasetIntelligence({
 
       try {
         // Fetch profile
-        let profileRes;
-        try {
-          profileRes = await fetch(`/api/dataset/${datasetId}/profile`);
-        } catch (_) {
-          profileRes = await fetch(`http://127.0.0.1:8000/api/dataset/${datasetId}/profile`);
-        }
-
-        if (!profileRes.ok) {
-          const errJson = await profileRes.json().catch(() => ({}));
-          throw new Error(errJson.error?.message || errJson.detail || 'Failed to profile dataset.');
-        }
-
+        const profileRes = await apiFetch(`/api/dataset/${datasetId}/profile`);
         const profileData = await profileRes.json();
 
         // Fetch preview rows
-        let previewRes;
-        try {
-          previewRes = await fetch(`/api/dataset/${datasetId}/preview?limit=15`);
-        } catch (_) {
-          previewRes = await fetch(`http://127.0.0.1:8000/api/dataset/${datasetId}/preview?limit=15`);
-        }
-
-        if (!previewRes.ok) {
-          const errJson = await previewRes.json().catch(() => ({}));
-          throw new Error(errJson.error?.message || errJson.detail || 'Failed to generate preview rows.');
-        }
-
+        const previewRes = await apiFetch(`/api/dataset/${datasetId}/preview?limit=15`);
         const previewData = await previewRes.json();
 
         if (isMounted) {

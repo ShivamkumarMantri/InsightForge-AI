@@ -1,0 +1,1001 @@
+date,product,category,region,quantity,unit_price,revenue,customer,sales_rep
+2026-01-01,Running Shoes,Sports,North,3,4915.86,14747.58,Alpha Corp,Rohan
+2026-02-02,Wireless Headphones,Electronics,South,6,6586.1,39516.6,Alpha Corp,Aarav
+2026-03-03,Yoga Mat,Sports,North,7,1396.77,9777.39,BlueSky,Anaya
+2026-04-04,Laptop Pro,Electronics,South,10,79883.71,798837.1,Vertex Inc,Ishita
+2026-05-05,Desk Lamp,Furniture,West,1,3239.48,3239.48,Alpha Corp,Meera
+2026-06-06,Laptop Pro,Electronics,East,9,89875.17,808876.53,Orbit Co,Meera
+2026-07-07,Mechanical Keyboard,Electronics,South,2,7585.1,15170.2,Alpha Corp,Rohan
+2026-08-08,Desk Lamp,Furniture,North,11,3040.19,33442.09,BlueSky,Ishita
+2026-09-09,Wireless Headphones,Electronics,South,10,6041.99,60419.9,Orbit Co,Ishita
+2026-10-10,Mechanical Keyboard,Electronics,West,7,7832.67,54828.69,BlueSky,Anaya
+2026-11-11,Running Shoes,Sports,South,5,4798.74,23993.7,Vertex Inc,Meera
+2026-12-12,Wireless Headphones,Electronics,West,10,6292.26,62922.6,Zenith Ltd,Ishita
+2026-01-13,Backpack,Accessories,North,5,2848.81,14244.05,Alpha Corp,Rohan
+2026-02-14,Yoga Mat,Sports,South,3,1561.71,4685.13,Orbit Co,Anaya
+2026-03-15,Laptop Pro,Electronics,East,11,79255.64,871812.04,Zenith Ltd,Ishita
+2026-04-16,Running Shoes,Sports,West,10,4997.34,49973.4,Alpha Corp,Aarav
+2026-05-17,Smart Watch,Wearables,North,8,9283.74,74269.92,Alpha Corp,Ishita
+2026-06-18,Smart Watch,Wearables,West,11,9112.24,100234.64,Zenith Ltd,Ishita
+2026-07-19,Yoga Mat,Sports,West,11,1463.28,16096.08,Zenith Ltd,Meera
+2026-08-20,Desk Lamp,Furniture,South,2,3196.77,6393.54,Zenith Ltd,Meera
+2026-09-21,Standing Desk,Furniture,West,7,21616.14,151312.98,Alpha Corp,Meera
+2026-10-22,Backpack,Accessories,South,7,2822.15,19755.05,Orbit Co,Rohan
+2026-11-23,Smart Watch,Wearables,East,12,8878.03,106536.36,Vertex Inc,Anaya
+2026-12-24,Standing Desk,Furniture,South,3,20532.11,61596.33,Nova Retail,Ishita
+2026-01-25,Standing Desk,Furniture,South,1,21947.07,21947.07,Zenith Ltd,Kabir
+2026-02-26,Laptop Pro,Electronics,East,3,83897.67,251693.01,BlueSky,Rohan
+2026-03-27,Running Shoes,Sports,North,3,5152.39,15457.17,Orbit Co,Ishita
+2026-04-01,Mechanical Keyboard,Electronics,West,7,7377.68,51643.76,Alpha Corp,Anaya
+2026-05-02,Yoga Mat,Sports,South,1,1425.75,1425.75,Orbit Co,Meera
+2026-06-03,Wireless Headphones,Electronics,North,6,6604.76,39628.56,Alpha Corp,Rohan
+2026-07-04,Office Chair,Furniture,East,9,11234.81,101113.29,BlueSky,Aarav
+2026-08-05,Wireless Headphones,Electronics,South,4,6618.63,26474.52,Vertex Inc,Kabir
+2026-09-06,Running Shoes,Sports,North,10,4891.33,48913.3,Alpha Corp,Anaya
+2026-10-07,Backpack,Accessories,North,8,2792.76,22342.08,Nova Retail,Aarav
+2026-11-08,Running Shoes,Sports,South,12,4811.81,57741.72,BlueSky,Aarav
+2026-12-09,Standing Desk,Furniture,North,9,21513.37,193620.33,BlueSky,Kabir
+2026-01-10,Wireless Headphones,Electronics,East,12,6859.27,82311.24,Nova Retail,Kabir
+2026-02-11,Standing Desk,Furniture,East,9,22146.32,199316.88,Vertex Inc,Meera
+2026-03-12,Desk Lamp,Furniture,West,4,3356.71,13426.84,Vertex Inc,Meera
+2026-04-13,Standing Desk,Furniture,North,9,21974.59,197771.31,Alpha Corp,Kabir
+2026-05-14,Backpack,Accessories,East,5,2662.75,13313.75,Orbit Co,Ishita
+2026-06-15,Running Shoes,Sports,North,6,4664.43,27986.58,Nova Retail,Anaya
+2026-07-16,Standing Desk,Furniture,North,6,20959.39,125756.34,Orbit Co,Ishita
+2026-08-17,Running Shoes,Sports,North,11,4667.82,51346.02,Orbit Co,Ishita
+2026-09-18,Standing Desk,Furniture,West,8,23369.32,186954.56,Vertex Inc,Kabir
+2026-10-19,Wireless Headphones,Electronics,West,12,6391.67,76700.04,Vertex Inc,Aarav
+2026-11-20,Office Chair,Furniture,North,3,12946.78,38840.34,Nova Retail,Rohan
+2026-12-21,Backpack,Accessories,West,11,2641.49,29056.39,Vertex Inc,Kabir
+2026-01-22,Office Chair,Furniture,North,9,12092.71,108834.39,Alpha Corp,Ishita
+2026-02-23,Wireless Headphones,Electronics,South,9,6759.48,60835.32,Orbit Co,Meera
+2026-03-24,Standing Desk,Furniture,East,1,21126.46,21126.46,BlueSky,Meera
+2026-04-25,Desk Lamp,Furniture,West,6,3076.79,18460.74,Nova Retail,Aarav
+2026-05-26,Running Shoes,Sports,West,8,5129.98,41039.84,BlueSky,Meera
+2026-06-27,Mechanical Keyboard,Electronics,North,3,7528.21,22584.63,Orbit Co,Meera
+2026-07-01,Desk Lamp,Furniture,South,1,3341.33,3341.33,Nova Retail,Meera
+2026-08-02,Backpack,Accessories,North,10,2900.89,29008.9,Zenith Ltd,Ishita
+2026-09-03,Mechanical Keyboard,Electronics,North,9,7566.53,68098.77,BlueSky,Aarav
+2026-10-04,Standing Desk,Furniture,North,4,21214.75,84859.0,BlueSky,Anaya
+2026-11-05,Mechanical Keyboard,Electronics,North,1,7811.99,7811.99,Orbit Co,Kabir
+2026-12-06,Desk Lamp,Furniture,South,9,3254.34,29289.06,Vertex Inc,Kabir
+2026-01-07,Backpack,Accessories,West,9,2814.91,25334.19,BlueSky,Meera
+2026-02-08,Mechanical Keyboard,Electronics,South,5,8007.34,40036.7,Orbit Co,Meera
+2026-03-09,Yoga Mat,Sports,East,2,1474.17,2948.34,Alpha Corp,Ishita
+2026-04-10,Standing Desk,Furniture,East,7,20497.39,143481.73,Alpha Corp,Meera
+2026-05-11,Running Shoes,Sports,South,3,4802.49,14407.47,Orbit Co,Meera
+2026-06-12,Wireless Headphones,Electronics,South,7,6900.33,48302.31,Vertex Inc,Meera
+2026-07-13,Office Chair,Furniture,West,12,11868.52,142422.24,Zenith Ltd,Anaya
+2026-08-14,Standing Desk,Furniture,East,6,21361.21,128167.26,Alpha Corp,Kabir
+2026-09-15,Mechanical Keyboard,Electronics,North,8,7428.55,59428.4,Orbit Co,Kabir
+2026-10-16,Mechanical Keyboard,Electronics,North,10,7254.54,72545.4,Alpha Corp,Meera
+2026-11-17,Wireless Headphones,Electronics,North,2,6256.19,12512.38,Nova Retail,Kabir
+2026-12-18,Office Chair,Furniture,East,7,12671.21,88698.47,Orbit Co,Meera
+2026-01-19,Mechanical Keyboard,Electronics,East,9,7584.71,68262.39,Alpha Corp,Kabir
+2026-02-20,Laptop Pro,Electronics,North,12,80693.48,968321.76,Zenith Ltd,Aarav
+2026-03-21,Wireless Headphones,Electronics,South,5,6067.09,30335.45,Alpha Corp,Kabir
+2026-04-22,Wireless Headphones,Electronics,West,8,5992.01,47936.08,Zenith Ltd,Rohan
+2026-05-23,Office Chair,Furniture,South,1,12051.68,12051.68,Alpha Corp,Meera
+2026-06-24,Smart Watch,Wearables,East,1,8540.85,8540.85,Vertex Inc,Kabir
+2026-07-25,Mechanical Keyboard,Electronics,South,4,7247.95,28991.8,Zenith Ltd,Kabir
+2026-08-26,Laptop Pro,Electronics,North,5,78702.51,393512.55,Vertex Inc,Rohan
+2026-09-27,Mechanical Keyboard,Electronics,South,4,7517.08,30068.32,Orbit Co,Aarav
+2026-10-01,Yoga Mat,Sports,West,11,1498.8,16486.8,BlueSky,Kabir
+2026-11-02,Standing Desk,Furniture,South,4,21446.32,85785.28,Orbit Co,Kabir
+2026-12-03,Laptop Pro,Electronics,East,3,78393.87,235181.61,Orbit Co,Meera
+2026-01-04,Laptop Pro,Electronics,West,2,87247.1,174494.2,BlueSky,Ishita
+2026-02-05,Smart Watch,Wearables,East,10,8628.79,86287.9,Alpha Corp,Anaya
+2026-03-06,Office Chair,Furniture,North,3,11556.55,34669.65,Zenith Ltd,Kabir
+2026-04-07,Running Shoes,Sports,North,9,4858.83,43729.47,Zenith Ltd,Meera
+2026-05-08,Running Shoes,Sports,West,3,4600.86,13802.58,Alpha Corp,Anaya
+2026-06-09,Smart Watch,Wearables,South,9,9224.67,83022.03,BlueSky,Aarav
+2026-07-10,Wireless Headphones,Electronics,South,5,6829.73,34148.65,Orbit Co,Rohan
+2026-08-11,Laptop Pro,Electronics,East,7,78505.92,549541.44,Vertex Inc,Meera
+2026-09-12,Wireless Headphones,Electronics,South,10,6975.94,69759.4,Vertex Inc,Ishita
+2026-10-13,Desk Lamp,Furniture,West,7,3335.33,23347.31,Nova Retail,Kabir
+2026-11-14,Desk Lamp,Furniture,West,11,3018.11,33199.21,Vertex Inc,Ishita
+2026-12-15,Mechanical Keyboard,Electronics,North,3,7991.87,23975.61,Vertex Inc,Rohan
+2026-01-16,Standing Desk,Furniture,South,2,20349.69,40699.38,Vertex Inc,Kabir
+2026-02-17,Wireless Headphones,Electronics,North,7,6849.25,47944.75,Vertex Inc,Aarav
+2026-03-18,Mechanical Keyboard,Electronics,East,11,7193.47,79128.17,Alpha Corp,Anaya
+2026-04-19,Wireless Headphones,Electronics,North,12,6949.8,83397.6,Vertex Inc,Rohan
+2026-05-20,Wireless Headphones,Electronics,East,12,6746.26,80955.12,Alpha Corp,Kabir
+2026-06-21,Standing Desk,Furniture,South,12,22902.67,274832.04,Vertex Inc,Ishita
+2026-07-22,Backpack,Accessories,North,8,2954.8,23638.4,Orbit Co,Ishita
+2026-08-23,Smart Watch,Wearables,South,1,9168.44,9168.44,Alpha Corp,Rohan
+2026-09-24,Office Chair,Furniture,East,6,11527.57,69165.42,BlueSky,Rohan
+2026-10-25,Office Chair,Furniture,West,1,11966.25,11966.25,Zenith Ltd,Ishita
+2026-11-26,Wireless Headphones,Electronics,West,12,6206.4,74476.8,Zenith Ltd,Ishita
+2026-12-27,Mechanical Keyboard,Electronics,West,5,7457.6,37288.0,Alpha Corp,Rohan
+2026-01-01,Standing Desk,Furniture,West,5,23683.0,118415.0,Alpha Corp,Kabir
+2026-02-02,Backpack,Accessories,West,2,2943.31,5886.62,Zenith Ltd,Anaya
+2026-03-03,Standing Desk,Furniture,North,4,20502.64,82010.56,Nova Retail,Ishita
+2026-04-04,Mechanical Keyboard,Electronics,South,5,8043.29,40216.45,BlueSky,Ishita
+2026-05-05,Mechanical Keyboard,Electronics,East,5,7964.23,39821.15,Nova Retail,Anaya
+2026-06-06,Backpack,Accessories,North,7,2587.13,18109.91,Orbit Co,Ishita
+2026-07-07,Backpack,Accessories,South,7,2711.27,18978.89,Orbit Co,Kabir
+2026-08-08,Yoga Mat,Sports,East,6,1409.02,8454.12,Alpha Corp,Kabir
+2026-09-09,Running Shoes,Sports,South,7,4696.03,32872.21,Vertex Inc,Aarav
+2026-10-10,Smart Watch,Wearables,West,5,8816.0,44080.0,Orbit Co,Rohan
+2026-11-11,Wireless Headphones,Electronics,East,6,6942.43,41654.58,Alpha Corp,Kabir
+2026-12-12,Wireless Headphones,Electronics,East,1,6848.06,6848.06,Vertex Inc,Meera
+2026-01-13,Standing Desk,Furniture,East,5,21775.57,108877.85,Nova Retail,Kabir
+2026-02-14,Yoga Mat,Sports,West,1,1574.87,1574.87,BlueSky,Rohan
+2026-03-15,Standing Desk,Furniture,West,12,20523.63,246283.56,Orbit Co,Rohan
+2026-04-16,Office Chair,Furniture,West,11,12709.4,139803.4,Alpha Corp,Rohan
+2026-05-17,Office Chair,Furniture,East,3,11946.59,35839.77,Zenith Ltd,Kabir
+2026-06-18,Smart Watch,Wearables,East,12,9343.79,112125.48,Orbit Co,Ishita
+2026-07-19,Standing Desk,Furniture,West,5,21940.8,109704.0,Alpha Corp,Meera
+2026-08-20,Office Chair,Furniture,West,2,11439.12,22878.24,BlueSky,Meera
+2026-09-21,Backpack,Accessories,West,6,3022.42,18134.52,Orbit Co,Meera
+2026-10-22,Mechanical Keyboard,Electronics,South,4,7192.9,28771.6,Zenith Ltd,Rohan
+2026-11-23,Wireless Headphones,Electronics,East,6,6228.69,37372.14,BlueSky,Meera
+2026-12-24,Laptop Pro,Electronics,West,12,90040.37,1080484.44,Orbit Co,Ishita
+2026-01-25,Mechanical Keyboard,Electronics,East,4,7352.24,29408.96,Alpha Corp,Anaya
+2026-02-26,Smart Watch,Wearables,South,10,9673.47,96734.7,Vertex Inc,Rohan
+2026-03-27,Mechanical Keyboard,Electronics,South,11,7848.37,86332.07,Alpha Corp,Kabir
+2026-04-01,Standing Desk,Furniture,West,7,21647.15,151530.05,Orbit Co,Kabir
+2026-05-02,Laptop Pro,Electronics,West,3,78638.51,235915.53,BlueSky,Anaya
+2026-06-03,Laptop Pro,Electronics,West,2,83524.69,167049.38,Orbit Co,Meera
+2026-07-04,Wireless Headphones,Electronics,North,4,6140.55,24562.2,Vertex Inc,Ishita
+2026-08-05,Backpack,Accessories,North,2,2823.07,5646.14,Alpha Corp,Meera
+2026-09-06,Standing Desk,Furniture,East,10,23478.12,234781.2,Nova Retail,Ishita
+2026-10-07,Smart Watch,Wearables,North,9,9196.26,82766.34,Alpha Corp,Aarav
+2026-11-08,Smart Watch,Wearables,South,9,9638.7,86748.3,Orbit Co,Kabir
+2026-12-09,Standing Desk,Furniture,East,10,20244.06,202440.6,Orbit Co,Kabir
+2026-01-10,Running Shoes,Sports,South,11,5271.53,57986.83,Orbit Co,Rohan
+2026-02-11,Standing Desk,Furniture,West,9,21109.65,189986.85,Vertex Inc,Ishita
+2026-03-12,Smart Watch,Wearables,West,1,8311.37,8311.37,Vertex Inc,Ishita
+2026-04-13,Yoga Mat,Sports,West,2,1441.74,2883.48,Zenith Ltd,Meera
+2026-05-14,Backpack,Accessories,West,1,2887.73,2887.73,Zenith Ltd,Ishita
+2026-06-15,Yoga Mat,Sports,East,4,1381.62,5526.48,Vertex Inc,Rohan
+2026-07-16,Wireless Headphones,Electronics,South,4,6495.52,25982.08,Zenith Ltd,Meera
+2026-08-17,Standing Desk,Furniture,East,8,21019.48,168155.84,Alpha Corp,Rohan
+2026-09-18,Backpack,Accessories,South,10,2659.92,26599.2,Orbit Co,Anaya
+2026-10-19,Laptop Pro,Electronics,West,10,80190.81,801908.1,Alpha Corp,Meera
+2026-11-20,Laptop Pro,Electronics,North,10,80129.99,801299.9,Vertex Inc,Aarav
+2026-12-21,Office Chair,Furniture,East,7,11903.31,83323.17,Vertex Inc,Aarav
+2026-01-22,Wireless Headphones,Electronics,South,3,6322.41,18967.23,Vertex Inc,Rohan
+2026-02-23,Backpack,Accessories,West,1,2715.7,2715.7,Zenith Ltd,Kabir
+2026-03-24,Backpack,Accessories,North,3,2624.81,7874.43,Zenith Ltd,Aarav
+2026-04-25,Running Shoes,Sports,North,7,5364.41,37550.87,BlueSky,Meera
+2026-05-26,Yoga Mat,Sports,East,6,1564.5,9387.0,Orbit Co,Aarav
+2026-06-27,Laptop Pro,Electronics,East,12,84639.11,1015669.32,BlueSky,Anaya
+2026-07-01,Standing Desk,Furniture,West,6,21522.16,129132.96,Alpha Corp,Ishita
+2026-08-02,Yoga Mat,Sports,West,4,1574.84,6299.36,Alpha Corp,Anaya
+2026-09-03,Laptop Pro,Electronics,North,8,79051.09,632408.72,Zenith Ltd,Meera
+2026-10-04,Wireless Headphones,Electronics,East,10,6332.63,63326.3,Zenith Ltd,Rohan
+2026-11-05,Laptop Pro,Electronics,East,5,88351.56,441757.8,Zenith Ltd,Kabir
+2026-12-06,Laptop Pro,Electronics,North,12,88476.87,1061722.44,Alpha Corp,Meera
+2026-01-07,Wireless Headphones,Electronics,West,8,6724.19,53793.52,Orbit Co,Kabir
+2026-02-08,Yoga Mat,Sports,West,8,1411.85,11294.8,Nova Retail,Aarav
+2026-03-09,Smart Watch,Wearables,South,12,9392.85,112714.2,Zenith Ltd,Kabir
+2026-04-10,Backpack,Accessories,North,6,2927.16,17562.96,BlueSky,Meera
+2026-05-11,Yoga Mat,Sports,North,3,1439.35,4318.05,Vertex Inc,Aarav
+2026-06-12,Backpack,Accessories,South,9,2819.99,25379.91,Orbit Co,Aarav
+2026-07-13,Wireless Headphones,Electronics,South,5,6629.59,33147.95,Alpha Corp,Anaya
+2026-08-14,Backpack,Accessories,South,12,3011.51,36138.12,Nova Retail,Meera
+2026-09-15,Yoga Mat,Sports,South,8,1528.87,12230.96,Vertex Inc,Rohan
+2026-10-16,Wireless Headphones,Electronics,East,5,6285.53,31427.65,Zenith Ltd,Kabir
+2026-11-17,Smart Watch,Wearables,South,4,8912.73,35650.92,Nova Retail,Meera
+2026-12-18,Office Chair,Furniture,South,5,12737.6,63688.0,Zenith Ltd,Aarav
+2026-01-19,Yoga Mat,Sports,South,5,1618.19,8090.95,Vertex Inc,Aarav
+2026-02-20,Backpack,Accessories,West,1,2621.84,2621.84,Nova Retail,Anaya
+2026-03-21,Running Shoes,Sports,South,1,5301.51,5301.51,Alpha Corp,Aarav
+2026-04-22,Standing Desk,Furniture,South,10,23664.84,236648.4,Alpha Corp,Kabir
+2026-05-23,Mechanical Keyboard,Electronics,East,3,7438.94,22316.82,Vertex Inc,Aarav
+2026-06-24,Wireless Headphones,Electronics,East,11,6599.99,72599.89,Nova Retail,Aarav
+2026-07-25,Running Shoes,Sports,South,6,4713.1,28278.6,Zenith Ltd,Aarav
+2026-08-26,Desk Lamp,Furniture,South,12,3277.64,39331.68,Alpha Corp,Kabir
+2026-09-27,Yoga Mat,Sports,East,11,1469.23,16161.53,Alpha Corp,Meera
+2026-10-01,Laptop Pro,Electronics,North,8,85653.41,685227.28,Orbit Co,Aarav
+2026-11-02,Yoga Mat,Sports,North,11,1512.03,16632.33,Vertex Inc,Meera
+2026-12-03,Yoga Mat,Sports,East,12,1445.08,17340.96,Vertex Inc,Kabir
+2026-01-04,Yoga Mat,Sports,East,1,1454.97,1454.97,Orbit Co,Anaya
+2026-02-05,Laptop Pro,Electronics,West,6,86964.9,521789.4,Vertex Inc,Anaya
+2026-03-06,Standing Desk,Furniture,South,1,21768.26,21768.26,Orbit Co,Aarav
+2026-04-07,Wireless Headphones,Electronics,East,7,6580.91,46066.37,Orbit Co,Meera
+2026-05-08,Office Chair,Furniture,South,1,11139.26,11139.26,Vertex Inc,Anaya
+2026-06-09,Wireless Headphones,Electronics,East,10,6627.08,66270.8,Vertex Inc,Rohan
+2026-07-10,Office Chair,Furniture,South,3,11708.05,35124.15,BlueSky,Meera
+2026-08-11,Wireless Headphones,Electronics,South,2,6379.08,12758.16,Zenith Ltd,Meera
+2026-09-12,Laptop Pro,Electronics,West,8,82477.55,659820.4,Alpha Corp,Ishita
+2026-10-13,Desk Lamp,Furniture,South,12,3366.17,40394.04,Vertex Inc,Meera
+2026-11-14,Desk Lamp,Furniture,South,7,3258.74,22811.18,Orbit Co,Meera
+2026-12-15,Desk Lamp,Furniture,South,4,2965.36,11861.44,Orbit Co,Kabir
+2026-01-16,Wireless Headphones,Electronics,South,3,6236.94,18710.82,Alpha Corp,Rohan
+2026-02-17,Laptop Pro,Electronics,North,11,89599.58,985595.38,Orbit Co,Rohan
+2026-03-18,Backpack,Accessories,East,9,2956.36,26607.24,Vertex Inc,Anaya
+2026-04-19,Smart Watch,Wearables,West,10,8638.93,86389.3,Vertex Inc,Kabir
+2026-05-20,Backpack,Accessories,North,9,2772.38,24951.42,Alpha Corp,Rohan
+2026-06-21,Backpack,Accessories,West,8,2681.39,21451.12,Nova Retail,Anaya
+2026-07-22,Yoga Mat,Sports,East,2,1396.11,2792.22,Orbit Co,Kabir
+2026-08-23,Wireless Headphones,Electronics,North,8,6504.52,52036.16,Alpha Corp,Ishita
+2026-09-24,Office Chair,Furniture,East,2,12810.48,25620.96,Vertex Inc,Rohan
+2026-10-25,Wireless Headphones,Electronics,West,1,6762.14,6762.14,Vertex Inc,Meera
+2026-11-26,Laptop Pro,Electronics,North,2,91747.29,183494.58,Nova Retail,Meera
+2026-12-27,Backpack,Accessories,South,5,3004.57,15022.85,Vertex Inc,Ishita
+2026-01-01,Standing Desk,Furniture,East,2,23172.29,46344.58,Nova Retail,Kabir
+2026-02-02,Desk Lamp,Furniture,West,5,3407.39,17036.95,Nova Retail,Kabir
+2026-03-03,Mechanical Keyboard,Electronics,East,8,7149.99,57199.92,BlueSky,Rohan
+2026-04-04,Standing Desk,Furniture,South,6,21550.38,129302.28,Nova Retail,Anaya
+2026-05-05,Office Chair,Furniture,East,11,12837.9,141216.9,Orbit Co,Meera
+2026-06-06,Smart Watch,Wearables,North,2,9386.3,18772.6,Vertex Inc,Kabir
+2026-07-07,Backpack,Accessories,North,9,2809.61,25286.49,Zenith Ltd,Rohan
+2026-08-08,Yoga Mat,Sports,East,12,1571.44,18857.28,Orbit Co,Kabir
+2026-09-09,Desk Lamp,Furniture,North,3,3128.45,9385.35,Orbit Co,Meera
+2026-10-10,Office Chair,Furniture,North,10,12467.7,124677.0,Zenith Ltd,Rohan
+2026-11-11,Smart Watch,Wearables,East,5,9200.5,46002.5,Vertex Inc,Aarav
+2026-12-12,Laptop Pro,Electronics,West,4,80231.36,320925.44,Orbit Co,Rohan
+2026-01-13,Running Shoes,Sports,South,1,4705.62,4705.62,BlueSky,Ishita
+2026-02-14,Laptop Pro,Electronics,East,1,78939.75,78939.75,Zenith Ltd,Aarav
+2026-03-15,Mechanical Keyboard,Electronics,West,6,7540.94,45245.64,BlueSky,Kabir
+2026-04-16,Desk Lamp,Furniture,West,3,3048.54,9145.62,Nova Retail,Meera
+2026-05-17,Laptop Pro,Electronics,West,4,87821.63,351286.52,Alpha Corp,Aarav
+2026-06-18,Office Chair,Furniture,West,11,12541.74,137959.14,Zenith Ltd,Aarav
+2026-07-19,Laptop Pro,Electronics,East,11,89363.98,983003.78,BlueSky,Ishita
+2026-08-20,Desk Lamp,Furniture,West,8,3252.16,26017.28,Nova Retail,Meera
+2026-09-21,Laptop Pro,Electronics,North,1,79036.79,79036.79,Orbit Co,Meera
+2026-10-22,Standing Desk,Furniture,North,3,20445.49,61336.47,Alpha Corp,Rohan
+2026-11-23,Mechanical Keyboard,Electronics,South,11,8029.1,88320.1,Orbit Co,Meera
+2026-12-24,Mechanical Keyboard,Electronics,West,10,7671.23,76712.3,BlueSky,Meera
+2026-01-25,Mechanical Keyboard,Electronics,North,5,6976.52,34882.6,Vertex Inc,Anaya
+2026-02-26,Mechanical Keyboard,Electronics,West,1,7350.19,7350.19,Vertex Inc,Anaya
+2026-03-27,Wireless Headphones,Electronics,South,12,6661.75,79941.0,Nova Retail,Aarav
+2026-04-01,Smart Watch,Wearables,North,4,9207.39,36829.56,Zenith Ltd,Ishita
+2026-05-02,Smart Watch,Wearables,West,12,8355.65,100267.8,Vertex Inc,Rohan
+2026-06-03,Smart Watch,Wearables,South,5,9204.48,46022.4,Alpha Corp,Rohan
+2026-07-04,Laptop Pro,Electronics,South,3,81741.01,245223.03,Vertex Inc,Meera
+2026-08-05,Office Chair,Furniture,South,12,12796.72,153560.64,Orbit Co,Kabir
+2026-09-06,Desk Lamp,Furniture,West,4,3138.28,12553.12,Orbit Co,Rohan
+2026-10-07,Laptop Pro,Electronics,South,1,84146.11,84146.11,BlueSky,Kabir
+2026-11-08,Standing Desk,Furniture,North,7,22431.63,157021.41,BlueSky,Meera
+2026-12-09,Office Chair,Furniture,North,1,11091.65,11091.65,BlueSky,Meera
+2026-01-10,Running Shoes,Sports,North,3,5160.59,15481.77,Alpha Corp,Meera
+2026-02-11,Laptop Pro,Electronics,North,12,79122.46,949469.52,Alpha Corp,Rohan
+2026-03-12,Running Shoes,Sports,North,4,5254.05,21016.2,Vertex Inc,Anaya
+2026-04-13,Wireless Headphones,Electronics,North,4,6193.95,24775.8,Alpha Corp,Aarav
+2026-05-14,Wireless Headphones,Electronics,West,11,6637.55,73013.05,Alpha Corp,Meera
+2026-06-15,Wireless Headphones,Electronics,East,11,6193.19,68125.09,Zenith Ltd,Anaya
+2026-07-16,Smart Watch,Wearables,East,1,8785.3,8785.3,Alpha Corp,Ishita
+2026-08-17,Running Shoes,Sports,West,6,5215.39,31292.34,Zenith Ltd,Rohan
+2026-09-18,Laptop Pro,Electronics,North,7,78624.98,550374.86,Zenith Ltd,Anaya
+2026-10-19,Laptop Pro,Electronics,North,9,85898.92,773090.28,BlueSky,Kabir
+2026-11-20,Office Chair,Furniture,South,7,11042.49,77297.43,Zenith Ltd,Aarav
+2026-12-21,Laptop Pro,Electronics,West,6,84875.19,509251.14,Vertex Inc,Meera
+2026-01-22,Backpack,Accessories,East,10,2731.54,27315.4,BlueSky,Meera
+2026-02-23,Smart Watch,Wearables,South,4,9631.14,38524.56,Orbit Co,Meera
+2026-03-24,Wireless Headphones,Electronics,West,11,6777.48,74552.28,Vertex Inc,Rohan
+2026-04-25,Wireless Headphones,Electronics,North,11,6319.71,69516.81,Orbit Co,Anaya
+2026-05-26,Wireless Headphones,Electronics,North,7,6903.99,48327.93,Zenith Ltd,Meera
+2026-06-27,Smart Watch,Wearables,South,5,8896.41,44482.05,Orbit Co,Ishita
+2026-07-01,Standing Desk,Furniture,North,8,20686.62,165492.96,Zenith Ltd,Rohan
+2026-08-02,Running Shoes,Sports,West,9,4724.26,42518.34,Vertex Inc,Rohan
+2026-09-03,Running Shoes,Sports,East,3,4970.53,14911.59,BlueSky,Meera
+2026-10-04,Office Chair,Furniture,South,6,11927.07,71562.42,BlueSky,Meera
+2026-11-05,Smart Watch,Wearables,South,5,9366.82,46834.1,Vertex Inc,Meera
+2026-12-06,Standing Desk,Furniture,East,12,21389.5,256674.0,Nova Retail,Meera
+2026-01-07,Running Shoes,Sports,North,4,4806.95,19227.8,Nova Retail,Ishita
+2026-02-08,Wireless Headphones,Electronics,South,4,6379.6,25518.4,Zenith Ltd,Ishita
+2026-03-09,Smart Watch,Wearables,North,7,8674.3,60720.1,Vertex Inc,Aarav
+2026-04-10,Smart Watch,Wearables,West,4,9554.76,38219.04,Alpha Corp,Aarav
+2026-05-11,Yoga Mat,Sports,East,7,1546.43,10825.01,Orbit Co,Aarav
+2026-06-12,Office Chair,Furniture,West,5,12199.12,60995.6,Alpha Corp,Ishita
+2026-07-13,Standing Desk,Furniture,West,7,22708.09,158956.63,Nova Retail,Ishita
+2026-08-14,Desk Lamp,Furniture,North,4,3291.95,13167.8,Orbit Co,Anaya
+2026-09-15,Running Shoes,Sports,North,5,5102.62,25513.1,Orbit Co,Meera
+2026-10-16,Yoga Mat,Sports,South,12,1551.03,18612.36,Zenith Ltd,Anaya
+2026-11-17,Backpack,Accessories,West,8,2584.81,20678.48,BlueSky,Ishita
+2026-12-18,Office Chair,Furniture,North,11,11669.86,128368.46,Orbit Co,Anaya
+2026-01-19,Wireless Headphones,Electronics,South,1,6241.27,6241.27,Nova Retail,Ishita
+2026-02-20,Standing Desk,Furniture,West,9,21465.69,193191.21,BlueSky,Meera
+2026-03-21,Backpack,Accessories,East,9,2583.22,23248.98,BlueSky,Kabir
+2026-04-22,Yoga Mat,Sports,South,12,1607.51,19290.12,Vertex Inc,Meera
+2026-05-23,Yoga Mat,Sports,North,9,1563.05,14067.45,Vertex Inc,Rohan
+2026-06-24,Running Shoes,Sports,East,11,4645.29,51098.19,Orbit Co,Anaya
+2026-07-25,Laptop Pro,Electronics,West,1,79222.52,79222.52,Vertex Inc,Ishita
+2026-08-26,Running Shoes,Sports,South,10,4812.13,48121.3,Zenith Ltd,Ishita
+2026-09-27,Yoga Mat,Sports,West,9,1613.16,14518.44,Orbit Co,Meera
+2026-10-01,Office Chair,Furniture,North,3,12824.48,38473.44,Vertex Inc,Meera
+2026-11-02,Backpack,Accessories,South,11,2827.8,31105.8,Nova Retail,Kabir
+2026-12-03,Yoga Mat,Sports,South,8,1619.07,12952.56,Orbit Co,Kabir
+2026-01-04,Standing Desk,Furniture,East,5,22718.79,113593.95,Orbit Co,Ishita
+2026-02-05,Office Chair,Furniture,East,8,11045.17,88361.36,Zenith Ltd,Meera
+2026-03-06,Smart Watch,Wearables,West,6,8970.55,53823.3,BlueSky,Ishita
+2026-04-07,Wireless Headphones,Electronics,South,11,6912.89,76041.79,Zenith Ltd,Anaya
+2026-05-08,Laptop Pro,Electronics,East,2,89459.44,178918.88,Nova Retail,Rohan
+2026-06-09,Running Shoes,Sports,North,11,5065.96,55725.56,Nova Retail,Aarav
+2026-07-10,Smart Watch,Wearables,South,5,9155.81,45779.05,Nova Retail,Meera
+2026-08-11,Backpack,Accessories,South,6,2927.63,17565.78,Orbit Co,Rohan
+2026-09-12,Office Chair,Furniture,North,10,12750.98,127509.8,Vertex Inc,Rohan
+2026-10-13,Smart Watch,Wearables,South,4,8992.02,35968.08,BlueSky,Aarav
+2026-11-14,Backpack,Accessories,North,11,2971.44,32685.84,Zenith Ltd,Anaya
+2026-12-15,Standing Desk,Furniture,North,3,21905.81,65717.43,Orbit Co,Anaya
+2026-01-16,Office Chair,Furniture,West,12,11983.43,143801.16,Nova Retail,Rohan
+2026-02-17,Desk Lamp,Furniture,East,12,2947.38,35368.56,Orbit Co,Ishita
+2026-03-18,Desk Lamp,Furniture,West,8,3284.63,26277.04,Zenith Ltd,Anaya
+2026-04-19,Yoga Mat,Sports,East,11,1398.1,15379.1,Vertex Inc,Ishita
+2026-05-20,Laptop Pro,Electronics,East,1,86491.58,86491.58,Alpha Corp,Rohan
+2026-06-21,Backpack,Accessories,South,8,2915.21,23321.68,Alpha Corp,Meera
+2026-07-22,Yoga Mat,Sports,North,11,1410.46,15515.06,Vertex Inc,Kabir
+2026-08-23,Running Shoes,Sports,South,8,5222.82,41782.56,Zenith Ltd,Anaya
+2026-09-24,Running Shoes,Sports,North,7,4801.26,33608.82,Zenith Ltd,Kabir
+2026-10-25,Running Shoes,Sports,East,8,4922.98,39383.84,BlueSky,Kabir
+2026-11-26,Standing Desk,Furniture,North,11,21972.52,241697.72,Zenith Ltd,Meera
+2026-12-27,Running Shoes,Sports,North,12,4839.38,58072.56,Alpha Corp,Anaya
+2026-01-01,Mechanical Keyboard,Electronics,North,7,7554.48,52881.36,Orbit Co,Kabir
+2026-02-02,Wireless Headphones,Electronics,West,1,6028.25,6028.25,BlueSky,Ishita
+2026-03-03,Laptop Pro,Electronics,West,9,90573.58,815162.22,BlueSky,Meera
+2026-04-04,Desk Lamp,Furniture,North,11,2986.5,32851.5,Vertex Inc,Ishita
+2026-05-05,Backpack,Accessories,North,11,2917.68,32094.48,Vertex Inc,Meera
+2026-06-06,Laptop Pro,Electronics,North,7,88733.68,621135.76,Zenith Ltd,Meera
+2026-07-07,Smart Watch,Wearables,East,9,9302.59,83723.31,Nova Retail,Anaya
+2026-08-08,Laptop Pro,Electronics,North,6,78477.33,470863.98,Orbit Co,Rohan
+2026-09-09,Mechanical Keyboard,Electronics,West,1,7889.71,7889.71,BlueSky,Ishita
+2026-10-10,Yoga Mat,Sports,West,8,1396.13,11169.04,BlueSky,Rohan
+2026-11-11,Office Chair,Furniture,North,8,12518.18,100145.44,Alpha Corp,Ishita
+2026-12-12,Backpack,Accessories,North,4,2977.31,11909.24,Orbit Co,Aarav
+2026-01-13,Laptop Pro,Electronics,North,11,87303.38,960337.18,Nova Retail,Aarav
+2026-02-14,Office Chair,Furniture,South,8,11074.13,88593.04,Orbit Co,Ishita
+2026-03-15,Office Chair,Furniture,South,1,11742.48,11742.48,Vertex Inc,Aarav
+2026-04-16,Smart Watch,Wearables,West,11,9082.78,99910.58,Orbit Co,Ishita
+2026-05-17,Smart Watch,Wearables,North,1,9312.78,9312.78,Alpha Corp,Aarav
+2026-06-18,Desk Lamp,Furniture,East,2,3143.14,6286.28,Vertex Inc,Rohan
+2026-07-19,Office Chair,Furniture,East,8,12209.18,97673.44,Zenith Ltd,Rohan
+2026-08-20,Backpack,Accessories,South,8,2879.24,23033.92,Alpha Corp,Kabir
+2026-09-21,Office Chair,Furniture,West,11,12579.55,138375.05,Orbit Co,Anaya
+2026-10-22,Smart Watch,Wearables,East,10,8760.8,87608.0,Alpha Corp,Rohan
+2026-11-23,Desk Lamp,Furniture,North,6,3389.21,20335.26,Nova Retail,Rohan
+2026-12-24,Smart Watch,Wearables,South,10,8897.13,88971.3,Orbit Co,Anaya
+2026-01-25,Yoga Mat,Sports,South,10,1565.15,15651.5,Orbit Co,Kabir
+2026-02-26,Laptop Pro,Electronics,West,6,81777.41,490664.46,Nova Retail,Rohan
+2026-03-27,Laptop Pro,Electronics,South,5,89531.94,447659.7,Zenith Ltd,Rohan
+2026-04-01,Backpack,Accessories,West,6,2815.48,16892.88,Orbit Co,Meera
+2026-05-02,Standing Desk,Furniture,West,5,22376.28,111881.4,Orbit Co,Ishita
+2026-06-03,Standing Desk,Furniture,North,5,22304.09,111520.45,Orbit Co,Anaya
+2026-07-04,Mechanical Keyboard,Electronics,East,2,7543.38,15086.76,Alpha Corp,Meera
+2026-08-05,Yoga Mat,Sports,East,10,1505.05,15050.5,BlueSky,Kabir
+2026-09-06,Backpack,Accessories,South,9,2840.02,25560.18,Nova Retail,Meera
+2026-10-07,Wireless Headphones,Electronics,East,3,6818.1,20454.3,Zenith Ltd,Rohan
+2026-11-08,Desk Lamp,Furniture,South,6,3150.08,18900.48,Nova Retail,Aarav
+2026-12-09,Backpack,Accessories,East,6,2964.13,17784.78,Vertex Inc,Anaya
+2026-01-10,Wireless Headphones,Electronics,North,3,6308.42,18925.26,Zenith Ltd,Kabir
+2026-02-11,Mechanical Keyboard,Electronics,North,10,6924.68,69246.8,Nova Retail,Rohan
+2026-03-12,Backpack,Accessories,East,10,2830.1,28301.0,Zenith Ltd,Anaya
+2026-04-13,Wireless Headphones,Electronics,South,8,6777.94,54223.52,Zenith Ltd,Aarav
+2026-05-14,Running Shoes,Sports,West,4,5395.69,21582.76,Alpha Corp,Aarav
+2026-06-15,Laptop Pro,Electronics,West,1,85780.37,85780.37,Orbit Co,Aarav
+2026-07-16,Desk Lamp,Furniture,North,11,3147.47,34622.17,Vertex Inc,Aarav
+2026-08-17,Smart Watch,Wearables,North,6,9092.85,54557.1,Vertex Inc,Rohan
+2026-09-18,Yoga Mat,Sports,South,3,1487.6,4462.8,Zenith Ltd,Meera
+2026-10-19,Standing Desk,Furniture,East,3,20375.98,61127.94,Zenith Ltd,Aarav
+2026-11-20,Mechanical Keyboard,Electronics,North,1,7904.66,7904.66,Zenith Ltd,Rohan
+2026-12-21,Backpack,Accessories,East,1,2621.27,2621.27,Alpha Corp,Meera
+2026-01-22,Smart Watch,Wearables,North,10,9131.71,91317.1,Orbit Co,Kabir
+2026-02-23,Running Shoes,Sports,East,5,4912.04,24560.2,Orbit Co,Anaya
+2026-03-24,Office Chair,Furniture,South,8,11497.84,91982.72,Vertex Inc,Aarav
+2026-04-25,Backpack,Accessories,North,12,2984.84,35818.08,Nova Retail,Meera
+2026-05-26,Wireless Headphones,Electronics,South,10,6881.42,68814.2,Orbit Co,Aarav
+2026-06-27,Yoga Mat,Sports,West,1,1530.81,1530.81,Zenith Ltd,Kabir
+2026-07-01,Standing Desk,Furniture,East,8,20646.95,165175.6,Nova Retail,Kabir
+2026-08-02,Standing Desk,Furniture,West,12,20439.68,245276.16,BlueSky,Meera
+2026-09-03,Backpack,Accessories,West,3,2695.35,8086.05,Nova Retail,Meera
+2026-10-04,Laptop Pro,Electronics,East,5,85965.47,429827.35,Zenith Ltd,Meera
+2026-11-05,Smart Watch,Wearables,West,8,8437.3,67498.4,Orbit Co,Aarav
+2026-12-06,Office Chair,Furniture,South,9,11149.16,100342.44,BlueSky,Anaya
+2026-01-07,Smart Watch,Wearables,South,2,8651.22,17302.44,Zenith Ltd,Anaya
+2026-02-08,Smart Watch,Wearables,North,4,9612.11,38448.44,Orbit Co,Kabir
+2026-03-09,Yoga Mat,Sports,East,3,1393.8,4181.4,Nova Retail,Ishita
+2026-04-10,Laptop Pro,Electronics,East,8,89175.51,713404.08,BlueSky,Meera
+2026-05-11,Backpack,Accessories,East,1,2929.73,2929.73,Nova Retail,Kabir
+2026-06-12,Yoga Mat,Sports,South,1,1598.88,1598.88,Zenith Ltd,Rohan
+2026-07-13,Office Chair,Furniture,South,3,12659.27,37977.81,Vertex Inc,Meera
+2026-08-14,Standing Desk,Furniture,North,10,20519.02,205190.2,BlueSky,Ishita
+2026-09-15,Backpack,Accessories,South,5,2654.54,13272.7,BlueSky,Ishita
+2026-10-16,Standing Desk,Furniture,North,10,21324.32,213243.2,Alpha Corp,Ishita
+2026-11-17,Mechanical Keyboard,Electronics,North,7,7909.28,55364.96,BlueSky,Kabir
+2026-12-18,Running Shoes,Sports,West,5,5273.53,26367.65,Alpha Corp,Aarav
+2026-01-19,Yoga Mat,Sports,East,8,1411.99,11295.92,Nova Retail,Meera
+2026-02-20,Desk Lamp,Furniture,East,6,2962.78,17776.68,BlueSky,Rohan
+2026-03-21,Laptop Pro,Electronics,West,6,85269.59,511617.54,BlueSky,Aarav
+2026-04-22,Wireless Headphones,Electronics,East,6,6723.17,40339.02,Vertex Inc,Anaya
+2026-05-23,Desk Lamp,Furniture,North,1,3093.27,3093.27,Vertex Inc,Anaya
+2026-06-24,Backpack,Accessories,South,9,2587.49,23287.41,Alpha Corp,Meera
+2026-07-25,Wireless Headphones,Electronics,South,4,6623.84,26495.36,Alpha Corp,Kabir
+2026-08-26,Smart Watch,Wearables,North,9,9456.7,85110.3,Alpha Corp,Aarav
+2026-09-27,Standing Desk,Furniture,West,5,20302.26,101511.3,BlueSky,Meera
+2026-10-01,Backpack,Accessories,North,2,2733.11,5466.22,Vertex Inc,Meera
+2026-11-02,Laptop Pro,Electronics,West,5,79873.47,399367.35,BlueSky,Rohan
+2026-12-03,Smart Watch,Wearables,West,2,8455.73,16911.46,Nova Retail,Rohan
+2026-01-04,Desk Lamp,Furniture,South,4,3384.88,13539.52,Vertex Inc,Rohan
+2026-02-05,Backpack,Accessories,North,12,2753.68,33044.16,Vertex Inc,Anaya
+2026-03-06,Yoga Mat,Sports,North,10,1581.53,15815.3,Orbit Co,Aarav
+2026-04-07,Running Shoes,Sports,East,6,4920.57,29523.42,Vertex Inc,Anaya
+2026-05-08,Desk Lamp,Furniture,North,6,3361.3,20167.8,Zenith Ltd,Rohan
+2026-06-09,Office Chair,Furniture,South,11,12833.92,141173.12,Orbit Co,Ishita
+2026-07-10,Laptop Pro,Electronics,South,6,79682.75,478096.5,Alpha Corp,Kabir
+2026-08-11,Yoga Mat,Sports,North,4,1501.15,6004.6,Nova Retail,Meera
+2026-09-12,Yoga Mat,Sports,West,7,1566.38,10964.66,Vertex Inc,Aarav
+2026-10-13,Laptop Pro,Electronics,East,1,89972.25,89972.25,Vertex Inc,Rohan
+2026-11-14,Smart Watch,Wearables,North,11,9060.85,99669.35,BlueSky,Aarav
+2026-12-15,Smart Watch,Wearables,West,2,9029.24,18058.48,Nova Retail,Aarav
+2026-01-16,Smart Watch,Wearables,South,2,8719.79,17439.58,Alpha Corp,Aarav
+2026-02-17,Desk Lamp,Furniture,North,9,3405.53,30649.77,Orbit Co,Rohan
+2026-03-18,Mechanical Keyboard,Electronics,South,3,7427.97,22283.91,Zenith Ltd,Anaya
+2026-04-19,Desk Lamp,Furniture,North,5,3084.35,15421.75,Vertex Inc,Rohan
+2026-05-20,Smart Watch,Wearables,South,8,9158.33,73266.64,Vertex Inc,Anaya
+2026-06-21,Standing Desk,Furniture,West,9,22740.47,204664.23,BlueSky,Kabir
+2026-07-22,Desk Lamp,Furniture,East,8,3184.11,25472.88,Alpha Corp,Meera
+2026-08-23,Running Shoes,Sports,West,4,4751.04,19004.16,BlueSky,Anaya
+2026-09-24,Laptop Pro,Electronics,South,6,80407.21,482443.26,Zenith Ltd,Rohan
+2026-10-25,Running Shoes,Sports,South,8,4815.94,38527.52,Zenith Ltd,Aarav
+2026-11-26,Laptop Pro,Electronics,East,3,85695.35,257086.05,Orbit Co,Ishita
+2026-12-27,Laptop Pro,Electronics,West,9,83475.27,751277.43,Zenith Ltd,Ishita
+2026-01-01,Wireless Headphones,Electronics,South,9,6214.17,55927.53,Orbit Co,Kabir
+2026-02-02,Running Shoes,Sports,East,3,5140.28,15420.84,BlueSky,Aarav
+2026-03-03,Backpack,Accessories,South,5,2927.65,14638.25,Orbit Co,Aarav
+2026-04-04,Laptop Pro,Electronics,North,7,88613.21,620292.47,Orbit Co,Anaya
+2026-05-05,Desk Lamp,Furniture,East,3,3157.97,9473.91,BlueSky,Rohan
+2026-06-06,Wireless Headphones,Electronics,West,7,6865.75,48060.25,Zenith Ltd,Ishita
+2026-07-07,Running Shoes,Sports,West,5,4882.36,24411.8,Vertex Inc,Kabir
+2026-08-08,Laptop Pro,Electronics,West,12,89754.1,1077049.2,Orbit Co,Anaya
+2026-09-09,Smart Watch,Wearables,South,3,9053.1,27159.3,Orbit Co,Rohan
+2026-10-10,Yoga Mat,Sports,East,10,1435.66,14356.6,Zenith Ltd,Rohan
+2026-11-11,Standing Desk,Furniture,West,6,20959.17,125755.02,Alpha Corp,Aarav
+2026-12-12,Laptop Pro,Electronics,West,5,85883.11,429415.55,Zenith Ltd,Rohan
+2026-01-13,Smart Watch,Wearables,West,9,9172.79,82555.11,BlueSky,Rohan
+2026-02-14,Yoga Mat,Sports,North,7,1491.42,10439.94,BlueSky,Ishita
+2026-03-15,Running Shoes,Sports,North,8,5358.32,42866.56,BlueSky,Meera
+2026-04-16,Wireless Headphones,Electronics,West,7,6369.39,44585.73,Vertex Inc,Rohan
+2026-05-17,Desk Lamp,Furniture,West,3,3394.48,10183.44,Orbit Co,Anaya
+2026-06-18,Backpack,Accessories,East,10,2978.82,29788.2,Vertex Inc,Rohan
+2026-07-19,Wireless Headphones,Electronics,East,3,6357.23,19071.69,Alpha Corp,Kabir
+2026-08-20,Mechanical Keyboard,Electronics,East,3,7032.61,21097.83,Vertex Inc,Kabir
+2026-09-21,Mechanical Keyboard,Electronics,East,7,7657.32,53601.24,BlueSky,Meera
+2026-10-22,Mechanical Keyboard,Electronics,North,4,7394.71,29578.84,Vertex Inc,Rohan
+2026-11-23,Desk Lamp,Furniture,North,2,3124.83,6249.66,Vertex Inc,Anaya
+2026-12-24,Laptop Pro,Electronics,North,1,82371.67,82371.67,Zenith Ltd,Anaya
+2026-01-25,Wireless Headphones,Electronics,North,10,5996.06,59960.6,Nova Retail,Meera
+2026-02-26,Backpack,Accessories,South,9,2830.03,25470.27,BlueSky,Meera
+2026-03-27,Yoga Mat,Sports,South,10,1409.16,14091.6,BlueSky,Rohan
+2026-04-01,Wireless Headphones,Electronics,South,1,6084.11,6084.11,BlueSky,Anaya
+2026-05-02,Backpack,Accessories,North,10,2768.92,27689.2,Vertex Inc,Aarav
+2026-06-03,Desk Lamp,Furniture,South,6,3017.69,18106.14,Zenith Ltd,Kabir
+2026-07-04,Office Chair,Furniture,North,1,11551.89,11551.89,BlueSky,Aarav
+2026-08-05,Running Shoes,Sports,West,4,4959.87,19839.48,Alpha Corp,Aarav
+2026-09-06,Standing Desk,Furniture,North,7,22290.97,156036.79,Orbit Co,Aarav
+2026-10-07,Desk Lamp,Furniture,North,4,3071.66,12286.64,Nova Retail,Rohan
+2026-11-08,Office Chair,Furniture,West,6,11051.83,66310.98,Zenith Ltd,Anaya
+2026-12-09,Desk Lamp,Furniture,West,5,3435.53,17177.65,Alpha Corp,Meera
+2026-01-10,Yoga Mat,Sports,South,11,1552.43,17076.73,Orbit Co,Kabir
+2026-02-11,Yoga Mat,Sports,South,12,1496.25,17955.0,Alpha Corp,Meera
+2026-03-12,Office Chair,Furniture,North,6,11767.7,70606.2,Zenith Ltd,Anaya
+2026-04-13,Mechanical Keyboard,Electronics,West,6,7037.86,42227.16,Zenith Ltd,Anaya
+2026-05-14,Wireless Headphones,Electronics,East,2,6419.17,12838.34,BlueSky,Meera
+2026-06-15,Yoga Mat,Sports,East,4,1492.08,5968.32,Nova Retail,Anaya
+2026-07-16,Laptop Pro,Electronics,East,5,87234.13,436170.65,Nova Retail,Meera
+2026-08-17,Office Chair,Furniture,South,2,11416.89,22833.78,BlueSky,Anaya
+2026-09-18,Backpack,Accessories,East,4,2647.33,10589.32,Nova Retail,Ishita
+2026-10-19,Yoga Mat,Sports,South,7,1531.04,10717.28,Zenith Ltd,Anaya
+2026-11-20,Mechanical Keyboard,Electronics,West,4,7172.73,28690.92,Vertex Inc,Meera
+2026-12-21,Smart Watch,Wearables,East,10,9575.45,95754.5,BlueSky,Meera
+2026-01-22,Yoga Mat,Sports,South,10,1502.45,15024.5,Alpha Corp,Ishita
+2026-02-23,Mechanical Keyboard,Electronics,East,2,7551.11,15102.22,Vertex Inc,Anaya
+2026-03-24,Laptop Pro,Electronics,South,11,87967.89,967646.79,Zenith Ltd,Aarav
+2026-04-25,Yoga Mat,Sports,South,12,1400.65,16807.8,Nova Retail,Kabir
+2026-05-26,Standing Desk,Furniture,North,11,23377.45,257151.95,BlueSky,Kabir
+2026-06-27,Mechanical Keyboard,Electronics,East,5,7131.39,35656.95,Alpha Corp,Meera
+2026-07-01,Smart Watch,Wearables,West,3,9456.24,28368.72,Zenith Ltd,Kabir
+2026-08-02,Yoga Mat,Sports,South,8,1566.0,12528.0,Zenith Ltd,Meera
+2026-09-03,Laptop Pro,Electronics,East,6,87442.9,524657.4,Orbit Co,Aarav
+2026-10-04,Backpack,Accessories,West,4,3023.97,12095.88,Zenith Ltd,Ishita
+2026-11-05,Wireless Headphones,Electronics,East,3,6283.14,18849.42,BlueSky,Ishita
+2026-12-06,Standing Desk,Furniture,West,12,22624.51,271494.12,Alpha Corp,Rohan
+2026-01-07,Office Chair,Furniture,East,7,11420.33,79942.31,Nova Retail,Anaya
+2026-02-08,Laptop Pro,Electronics,South,9,82428.47,741856.23,BlueSky,Meera
+2026-03-09,Desk Lamp,Furniture,East,8,3310.92,26487.36,Orbit Co,Ishita
+2026-04-10,Desk Lamp,Furniture,North,6,3423.07,20538.42,Vertex Inc,Kabir
+2026-05-11,Laptop Pro,Electronics,North,10,86460.47,864604.7,Nova Retail,Ishita
+2026-06-12,Wireless Headphones,Electronics,South,1,6803.1,6803.1,Zenith Ltd,Ishita
+2026-07-13,Wireless Headphones,Electronics,West,7,6702.46,46917.22,Vertex Inc,Rohan
+2026-08-14,Standing Desk,Furniture,East,5,22096.18,110480.9,Orbit Co,Anaya
+2026-09-15,Running Shoes,Sports,West,12,5002.46,60029.52,BlueSky,Aarav
+2026-10-16,Standing Desk,Furniture,South,7,22609.39,158265.73,Orbit Co,Meera
+2026-11-17,Laptop Pro,Electronics,East,12,89422.39,1073068.68,Nova Retail,Rohan
+2026-12-18,Office Chair,Furniture,East,11,11493.13,126424.43,Nova Retail,Aarav
+2026-01-19,Office Chair,Furniture,North,6,11706.68,70240.08,Nova Retail,Ishita
+2026-02-20,Smart Watch,Wearables,West,3,8476.64,25429.92,Vertex Inc,Anaya
+2026-03-21,Standing Desk,Furniture,West,12,21090.82,253089.84,Nova Retail,Ishita
+2026-04-22,Running Shoes,Sports,South,12,4839.5,58074.0,BlueSky,Rohan
+2026-05-23,Standing Desk,Furniture,North,6,22455.49,134732.94,BlueSky,Anaya
+2026-06-24,Office Chair,Furniture,West,11,12319.74,135517.14,Orbit Co,Meera
+2026-07-25,Wireless Headphones,Electronics,East,12,6280.91,75370.92,Orbit Co,Meera
+2026-08-26,Laptop Pro,Electronics,East,1,90383.04,90383.04,Nova Retail,Aarav
+2026-09-27,Smart Watch,Wearables,South,8,9666.55,77332.4,Zenith Ltd,Anaya
+2026-10-01,Backpack,Accessories,South,10,2738.61,27386.1,BlueSky,Aarav
+2026-11-02,Laptop Pro,Electronics,West,1,84571.76,84571.76,Alpha Corp,Ishita
+2026-12-03,Running Shoes,Sports,North,12,5050.92,60611.04,Vertex Inc,Anaya
+2026-01-04,Yoga Mat,Sports,East,8,1425.55,11404.4,Alpha Corp,Kabir
+2026-02-05,Wireless Headphones,Electronics,East,11,6277.41,69051.51,Vertex Inc,Meera
+2026-03-06,Wireless Headphones,Electronics,North,3,6757.35,20272.05,Orbit Co,Meera
+2026-04-07,Smart Watch,Wearables,South,6,8547.46,51284.76,Alpha Corp,Ishita
+2026-05-08,Smart Watch,Wearables,West,12,9168.18,110018.16,Nova Retail,Ishita
+2026-06-09,Running Shoes,Sports,South,6,4784.18,28705.08,BlueSky,Kabir
+2026-07-10,Smart Watch,Wearables,North,4,8363.12,33452.48,BlueSky,Ishita
+2026-08-11,Yoga Mat,Sports,West,1,1606.78,1606.78,Orbit Co,Anaya
+2026-09-12,Office Chair,Furniture,North,5,12197.04,60985.2,Nova Retail,Ishita
+2026-10-13,Standing Desk,Furniture,West,3,20726.82,62180.46,Alpha Corp,Aarav
+2026-11-14,Backpack,Accessories,East,8,2661.48,21291.84,Alpha Corp,Aarav
+2026-12-15,Desk Lamp,Furniture,East,9,3161.83,28456.47,Alpha Corp,Ishita
+2026-01-16,Laptop Pro,Electronics,East,9,87866.57,790799.13,Alpha Corp,Anaya
+2026-02-17,Laptop Pro,Electronics,South,11,91201.71,1003218.81,Vertex Inc,Meera
+2026-03-18,Yoga Mat,Sports,East,5,1381.01,6905.05,BlueSky,Meera
+2026-04-19,Backpack,Accessories,West,2,2819.14,5638.28,Orbit Co,Rohan
+2026-05-20,Office Chair,Furniture,North,7,12886.69,90206.83,Alpha Corp,Ishita
+2026-06-21,Running Shoes,Sports,West,10,5126.75,51267.5,Zenith Ltd,Anaya
+2026-07-22,Office Chair,Furniture,North,5,12701.3,63506.5,Nova Retail,Meera
+2026-08-23,Backpack,Accessories,East,12,2614.17,31370.04,BlueSky,Rohan
+2026-09-24,Yoga Mat,Sports,West,6,1507.19,9043.14,Orbit Co,Kabir
+2026-10-25,Wireless Headphones,Electronics,South,4,6167.72,24670.88,BlueSky,Ishita
+2026-11-26,Wireless Headphones,Electronics,East,4,6876.66,27506.64,Vertex Inc,Aarav
+2026-12-27,Standing Desk,Furniture,West,9,22599.24,203393.16,Nova Retail,Rohan
+2026-01-01,Backpack,Accessories,North,4,2818.47,11273.88,Vertex Inc,Rohan
+2026-02-02,Desk Lamp,Furniture,West,10,2985.08,29850.8,Vertex Inc,Aarav
+2026-03-03,Backpack,Accessories,North,3,2962.84,8888.52,Vertex Inc,Ishita
+2026-04-04,Mechanical Keyboard,Electronics,West,2,7451.98,14903.96,BlueSky,Meera
+2026-05-05,Standing Desk,Furniture,North,10,21912.38,219123.8,Nova Retail,Kabir
+2026-06-06,Desk Lamp,Furniture,North,1,3151.03,3151.03,Zenith Ltd,Aarav
+2026-07-07,Laptop Pro,Electronics,South,12,86282.58,1035390.96,Orbit Co,Kabir
+2026-08-08,Wireless Headphones,Electronics,North,12,6121.02,73452.24,BlueSky,Meera
+2026-09-09,Desk Lamp,Furniture,East,2,3413.76,6827.52,Nova Retail,Kabir
+2026-10-10,Running Shoes,Sports,East,12,5144.42,61733.04,Alpha Corp,Meera
+2026-11-11,Running Shoes,Sports,East,9,5189.8,46708.2,Vertex Inc,Anaya
+2026-12-12,Laptop Pro,Electronics,East,10,83006.82,830068.2,BlueSky,Kabir
+2026-01-13,Desk Lamp,Furniture,South,2,2961.48,5922.96,Zenith Ltd,Kabir
+2026-02-14,Standing Desk,Furniture,West,12,21812.62,261751.44,Alpha Corp,Aarav
+2026-03-15,Backpack,Accessories,East,2,2609.04,5218.08,Nova Retail,Meera
+2026-04-16,Mechanical Keyboard,Electronics,West,5,7948.49,39742.45,Nova Retail,Rohan
+2026-05-17,Smart Watch,Wearables,East,9,9716.07,87444.63,Orbit Co,Aarav
+2026-06-18,Laptop Pro,Electronics,West,6,91724.99,550349.94,BlueSky,Anaya
+2026-07-19,Laptop Pro,Electronics,West,1,79214.61,79214.61,Orbit Co,Meera
+2026-08-20,Backpack,Accessories,North,7,2678.69,18750.83,Zenith Ltd,Kabir
+2026-09-21,Mechanical Keyboard,Electronics,South,4,7273.51,29094.04,BlueSky,Rohan
+2026-10-22,Laptop Pro,Electronics,East,4,80508.3,322033.2,Vertex Inc,Anaya
+2026-11-23,Running Shoes,Sports,East,10,4974.72,49747.2,Zenith Ltd,Aarav
+2026-12-24,Running Shoes,Sports,South,10,4986.75,49867.5,Alpha Corp,Meera
+2026-01-25,Backpack,Accessories,South,10,2596.33,25963.3,Vertex Inc,Ishita
+2026-02-26,Office Chair,Furniture,North,5,11778.11,58890.55,BlueSky,Kabir
+2026-03-27,Running Shoes,Sports,South,10,5058.82,50588.2,Vertex Inc,Aarav
+2026-04-01,Mechanical Keyboard,Electronics,West,2,7946.86,15893.72,Vertex Inc,Rohan
+2026-05-02,Wireless Headphones,Electronics,South,6,6803.58,40821.48,Nova Retail,Ishita
+2026-06-03,Wireless Headphones,Electronics,East,5,6981.48,34907.4,Vertex Inc,Kabir
+2026-07-04,Mechanical Keyboard,Electronics,West,11,7194.24,79136.64,Zenith Ltd,Aarav
+2026-08-05,Running Shoes,Sports,West,11,4858.56,53444.16,BlueSky,Kabir
+2026-09-06,Standing Desk,Furniture,South,4,23748.15,94992.6,Nova Retail,Meera
+2026-10-07,Laptop Pro,Electronics,West,11,84362.53,927987.83,Orbit Co,Rohan
+2026-11-08,Smart Watch,Wearables,South,3,9124.98,27374.94,Zenith Ltd,Ishita
+2026-12-09,Smart Watch,Wearables,East,5,9326.38,46631.9,Alpha Corp,Meera
+2026-01-10,Desk Lamp,Furniture,East,2,3243.48,6486.96,BlueSky,Kabir
+2026-02-11,Backpack,Accessories,West,6,3010.81,18064.86,Vertex Inc,Aarav
+2026-03-12,Backpack,Accessories,East,6,2978.8,17872.8,Zenith Ltd,Rohan
+2026-04-13,Laptop Pro,Electronics,South,3,86719.71,260159.13,Vertex Inc,Aarav
+2026-05-14,Standing Desk,Furniture,South,1,21646.5,21646.5,BlueSky,Kabir
+2026-06-15,Mechanical Keyboard,Electronics,South,11,7019.48,77214.28,Vertex Inc,Aarav
+2026-07-16,Office Chair,Furniture,North,10,11133.31,111333.1,BlueSky,Kabir
+2026-08-17,Office Chair,Furniture,North,1,11401.3,11401.3,Vertex Inc,Kabir
+2026-09-18,Laptop Pro,Electronics,North,4,82573.05,330292.2,Vertex Inc,Anaya
+2026-10-19,Yoga Mat,Sports,East,10,1542.95,15429.5,Nova Retail,Aarav
+2026-11-20,Yoga Mat,Sports,East,1,1400.93,1400.93,Orbit Co,Rohan
+2026-12-21,Yoga Mat,Sports,North,5,1605.66,8028.3,Alpha Corp,Kabir
+2026-01-22,Desk Lamp,Furniture,North,11,3449.61,37945.71,Orbit Co,Rohan
+2026-02-23,Running Shoes,Sports,South,3,4674.76,14024.28,Nova Retail,Meera
+2026-03-24,Mechanical Keyboard,Electronics,East,2,7329.41,14658.82,Orbit Co,Kabir
+2026-04-25,Mechanical Keyboard,Electronics,South,11,7606.19,83668.09,Vertex Inc,Rohan
+2026-05-26,Desk Lamp,Furniture,East,6,3061.76,18370.56,Vertex Inc,Anaya
+2026-06-27,Laptop Pro,Electronics,West,11,82405.84,906464.24,BlueSky,Kabir
+2026-07-01,Running Shoes,Sports,East,9,5023.71,45213.39,Nova Retail,Kabir
+2026-08-02,Laptop Pro,Electronics,East,9,84670.38,762033.42,Nova Retail,Ishita
+2026-09-03,Standing Desk,Furniture,North,7,22903.19,160322.33,Alpha Corp,Rohan
+2026-10-04,Office Chair,Furniture,South,2,11155.52,22311.04,BlueSky,Meera
+2026-11-05,Smart Watch,Wearables,South,10,8806.48,88064.8,Nova Retail,Ishita
+2026-12-06,Office Chair,Furniture,South,9,11095.76,99861.84,Orbit Co,Anaya
+2026-01-07,Standing Desk,Furniture,West,11,23451.48,257966.28,Orbit Co,Meera
+2026-02-08,Running Shoes,Sports,North,1,4686.24,4686.24,Alpha Corp,Ishita
+2026-03-09,Yoga Mat,Sports,North,11,1587.37,17461.07,Nova Retail,Rohan
+2026-04-10,Yoga Mat,Sports,West,7,1597.68,11183.76,Vertex Inc,Ishita
+2026-05-11,Standing Desk,Furniture,East,1,21126.79,21126.79,Vertex Inc,Anaya
+2026-06-12,Standing Desk,Furniture,East,4,21487.15,85948.6,Orbit Co,Ishita
+2026-07-13,Smart Watch,Wearables,West,5,9546.37,47731.85,Nova Retail,Rohan
+2026-08-14,Office Chair,Furniture,East,8,12697.09,101576.72,Nova Retail,Kabir
+2026-09-15,Smart Watch,Wearables,West,2,8757.4,17514.8,Nova Retail,Meera
+2026-10-16,Running Shoes,Sports,West,11,5088.2,55970.2,Nova Retail,Rohan
+2026-11-17,Laptop Pro,Electronics,East,4,89778.32,359113.28,Alpha Corp,Anaya
+2026-12-18,Office Chair,Furniture,East,7,12698.82,88891.74,Vertex Inc,Aarav
+2026-01-19,Wireless Headphones,Electronics,North,3,6993.31,20979.93,Nova Retail,Kabir
+2026-02-20,Office Chair,Furniture,North,9,12453.15,112078.35,Nova Retail,Anaya
+2026-03-21,Yoga Mat,Sports,West,2,1479.41,2958.82,Zenith Ltd,Aarav
+2026-04-22,Desk Lamp,Furniture,North,4,3047.11,12188.44,Alpha Corp,Meera
+2026-05-23,Mechanical Keyboard,Electronics,West,10,7177.95,71779.5,Vertex Inc,Aarav
+2026-06-24,Laptop Pro,Electronics,East,1,91674.6,91674.6,Alpha Corp,Aarav
+2026-07-25,Wireless Headphones,Electronics,West,8,6989.41,55915.28,Alpha Corp,Meera
+2026-08-26,Standing Desk,Furniture,North,11,22142.34,243565.74,BlueSky,Kabir
+2026-09-27,Backpack,Accessories,South,2,2732.55,5465.1,Nova Retail,Ishita
+2026-10-01,Wireless Headphones,Electronics,North,5,6711.73,33558.65,Zenith Ltd,Kabir
+2026-11-02,Wireless Headphones,Electronics,North,1,6184.3,6184.3,Orbit Co,Rohan
+2026-12-03,Running Shoes,Sports,North,5,4608.47,23042.35,Vertex Inc,Anaya
+2026-01-04,Mechanical Keyboard,Electronics,West,5,7558.57,37792.85,Vertex Inc,Ishita
+2026-02-05,Smart Watch,Wearables,West,7,8887.62,62213.34,Orbit Co,Meera
+2026-03-06,Yoga Mat,Sports,South,7,1591.6,11141.2,Vertex Inc,Aarav
+2026-04-07,Standing Desk,Furniture,East,10,22003.7,220037.0,Vertex Inc,Rohan
+2026-05-08,Yoga Mat,Sports,North,4,1578.13,6312.52,Alpha Corp,Rohan
+2026-06-09,Laptop Pro,Electronics,East,12,78873.34,946480.08,Vertex Inc,Ishita
+2026-07-10,Backpack,Accessories,West,9,2875.27,25877.43,BlueSky,Aarav
+2026-08-11,Backpack,Accessories,West,12,2866.0,34392.0,BlueSky,Kabir
+2026-09-12,Desk Lamp,Furniture,South,9,3453.31,31079.79,Vertex Inc,Ishita
+2026-10-13,Yoga Mat,Sports,West,6,1550.92,9305.52,BlueSky,Kabir
+2026-11-14,Desk Lamp,Furniture,East,11,3290.73,36198.03,Alpha Corp,Ishita
+2026-12-15,Mechanical Keyboard,Electronics,East,11,7167.92,78847.12,Zenith Ltd,Anaya
+2026-01-16,Running Shoes,Sports,South,9,5071.59,45644.31,Nova Retail,Aarav
+2026-02-17,Mechanical Keyboard,Electronics,South,6,7528.72,45172.32,Zenith Ltd,Meera
+2026-03-18,Office Chair,Furniture,West,3,12618.02,37854.06,Nova Retail,Ishita
+2026-04-19,Laptop Pro,Electronics,West,6,83385.16,500310.96,Alpha Corp,Anaya
+2026-05-20,Office Chair,Furniture,North,12,11522.85,138274.2,Zenith Ltd,Kabir
+2026-06-21,Mechanical Keyboard,Electronics,North,9,7262.88,65365.92,Zenith Ltd,Anaya
+2026-07-22,Smart Watch,Wearables,West,8,9280.82,74246.56,Vertex Inc,Anaya
+2026-08-23,Office Chair,Furniture,South,9,11327.77,101949.93,Zenith Ltd,Anaya
+2026-09-24,Mechanical Keyboard,Electronics,East,11,7185.16,79036.76,BlueSky,Kabir
+2026-10-25,Yoga Mat,Sports,South,5,1384.26,6921.3,Alpha Corp,Rohan
+2026-11-26,Smart Watch,Wearables,East,1,9130.45,9130.45,Vertex Inc,Rohan
+2026-12-27,Smart Watch,Wearables,East,6,8648.09,51888.54,Orbit Co,Aarav
+2026-01-01,Mechanical Keyboard,Electronics,North,11,7492.07,82412.77,Nova Retail,Meera
+2026-02-02,Yoga Mat,Sports,East,5,1528.29,7641.45,Alpha Corp,Ishita
+2026-03-03,Backpack,Accessories,East,7,2740.49,19183.43,Orbit Co,Anaya
+2026-04-04,Desk Lamp,Furniture,West,5,3124.4,15622.0,BlueSky,Meera
+2026-05-05,Desk Lamp,Furniture,East,4,3444.58,13778.32,Alpha Corp,Ishita
+2026-06-06,Standing Desk,Furniture,North,6,23267.83,139606.98,Orbit Co,Anaya
+2026-07-07,Yoga Mat,Sports,North,9,1479.53,13315.77,Alpha Corp,Rohan
+2026-08-08,Desk Lamp,Furniture,West,8,3422.75,27382.0,Orbit Co,Anaya
+2026-09-09,Office Chair,Furniture,West,2,11884.49,23768.98,Nova Retail,Rohan
+2026-10-10,Laptop Pro,Electronics,South,11,81360.85,894969.35,Orbit Co,Rohan
+2026-11-11,Laptop Pro,Electronics,East,11,82198.15,904179.65,Orbit Co,Anaya
+2026-12-12,Wireless Headphones,Electronics,North,2,6209.54,12419.08,BlueSky,Aarav
+2026-01-13,Wireless Headphones,Electronics,South,8,6071.78,48574.24,BlueSky,Anaya
+2026-02-14,Laptop Pro,Electronics,East,11,80917.77,890095.47,Orbit Co,Aarav
+2026-03-15,Mechanical Keyboard,Electronics,South,12,7797.51,93570.12,Orbit Co,Aarav
+2026-04-16,Office Chair,Furniture,North,6,11681.92,70091.52,Nova Retail,Rohan
+2026-05-17,Smart Watch,Wearables,East,9,8657.77,77919.93,Orbit Co,Kabir
+2026-06-18,Smart Watch,Wearables,West,9,8848.49,79636.41,Vertex Inc,Aarav
+2026-07-19,Smart Watch,Wearables,West,5,8637.87,43189.35,Orbit Co,Rohan
+2026-08-20,Smart Watch,Wearables,North,5,8570.89,42854.45,Nova Retail,Rohan
+2026-09-21,Running Shoes,Sports,South,8,5125.06,41000.48,Zenith Ltd,Kabir
+2026-10-22,Standing Desk,Furniture,North,8,23476.21,187809.68,Vertex Inc,Kabir
+2026-11-23,Laptop Pro,Electronics,East,9,79119.93,712079.37,Alpha Corp,Kabir
+2026-12-24,Standing Desk,Furniture,South,8,21266.2,170129.6,BlueSky,Rohan
+2026-01-25,Backpack,Accessories,West,7,2994.82,20963.74,Nova Retail,Meera
+2026-02-26,Laptop Pro,Electronics,North,3,84098.6,252295.8,Alpha Corp,Meera
+2026-03-27,Wireless Headphones,Electronics,North,10,6497.04,64970.4,Vertex Inc,Rohan
+2026-04-01,Office Chair,Furniture,East,8,11463.95,91711.6,Nova Retail,Rohan
+2026-05-02,Office Chair,Furniture,South,3,12532.89,37598.67,BlueSky,Aarav
+2026-06-03,Backpack,Accessories,North,2,2666.33,5332.66,Alpha Corp,Anaya
+2026-07-04,Standing Desk,Furniture,West,11,23174.14,254915.54,Vertex Inc,Anaya
+2026-08-05,Office Chair,Furniture,South,1,12813.8,12813.8,Alpha Corp,Meera
+2026-09-06,Backpack,Accessories,East,5,2915.66,14578.3,Vertex Inc,Rohan
+2026-10-07,Office Chair,Furniture,East,5,12790.86,63954.3,BlueSky,Meera
+2026-11-08,Office Chair,Furniture,West,11,12921.79,142139.69,Alpha Corp,Kabir
+2026-12-09,Yoga Mat,Sports,South,3,1533.79,4601.37,Vertex Inc,Rohan
+2026-01-10,Wireless Headphones,Electronics,South,4,6463.03,25852.12,Orbit Co,Kabir
+2026-02-11,Yoga Mat,Sports,East,2,1389.31,2778.62,Alpha Corp,Ishita
+2026-03-12,Standing Desk,Furniture,North,11,23546.79,259014.69,Zenith Ltd,Anaya
+2026-04-13,Running Shoes,Sports,West,1,5200.3,5200.3,Alpha Corp,Meera
+2026-05-14,Backpack,Accessories,North,5,2963.07,14815.35,Nova Retail,Meera
+2026-06-15,Backpack,Accessories,South,5,2919.96,14599.8,BlueSky,Kabir
+2026-07-16,Laptop Pro,Electronics,North,10,86343.59,863435.9,Zenith Ltd,Meera
+2026-08-17,Office Chair,Furniture,South,11,11616.05,127776.55,Zenith Ltd,Kabir
+2026-09-18,Backpack,Accessories,East,8,2686.83,21494.64,Nova Retail,Aarav
+2026-10-19,Smart Watch,Wearables,West,2,9322.1,18644.2,Alpha Corp,Ishita
+2026-11-20,Mechanical Keyboard,Electronics,West,2,7845.59,15691.18,Orbit Co,Aarav
+2026-12-21,Laptop Pro,Electronics,North,1,85181.76,85181.76,Orbit Co,Ishita
+2026-01-22,Office Chair,Furniture,East,7,12149.74,85048.18,Alpha Corp,Kabir
+2026-02-23,Office Chair,Furniture,North,6,11365.82,68194.92,Zenith Ltd,Aarav
+2026-03-24,Backpack,Accessories,North,5,2642.77,13213.85,Alpha Corp,Meera
+2026-04-25,Wireless Headphones,Electronics,North,3,6495.97,19487.91,Zenith Ltd,Anaya
+2026-05-26,Standing Desk,Furniture,North,3,22240.68,66722.04,BlueSky,Kabir
+2026-06-27,Running Shoes,Sports,South,4,4826.79,19307.16,Nova Retail,Meera
+2026-07-01,Mechanical Keyboard,Electronics,North,9,7187.58,64688.22,Alpha Corp,Aarav
+2026-08-02,Laptop Pro,Electronics,South,8,88966.87,711734.96,Vertex Inc,Ishita
+2026-09-03,Standing Desk,Furniture,South,2,22880.15,45760.3,Zenith Ltd,Aarav
+2026-10-04,Yoga Mat,Sports,North,7,1529.82,10708.74,Zenith Ltd,Rohan
+2026-11-05,Wireless Headphones,Electronics,South,2,6670.44,13340.88,Nova Retail,Meera
+2026-12-06,Desk Lamp,Furniture,North,9,3307.92,29771.28,Nova Retail,Aarav
+2026-01-07,Desk Lamp,Furniture,North,6,3447.27,20683.62,Nova Retail,Rohan
+2026-02-08,Office Chair,Furniture,West,5,11696.78,58483.9,BlueSky,Meera
+2026-03-09,Laptop Pro,Electronics,West,6,90988.19,545929.14,Orbit Co,Aarav
+2026-04-10,Wireless Headphones,Electronics,South,4,6133.99,24535.96,Nova Retail,Kabir
+2026-05-11,Office Chair,Furniture,South,4,11420.55,45682.2,Vertex Inc,Kabir
+2026-06-12,Wireless Headphones,Electronics,West,1,6803.25,6803.25,Alpha Corp,Anaya
+2026-07-13,Mechanical Keyboard,Electronics,North,6,7989.72,47938.32,Nova Retail,Ishita
+2026-08-14,Laptop Pro,Electronics,North,6,88897.99,533387.94,Vertex Inc,Ishita
+2026-09-15,Running Shoes,Sports,West,10,4729.78,47297.8,Vertex Inc,Ishita
+2026-10-16,Backpack,Accessories,East,3,2692.17,8076.51,Alpha Corp,Ishita
+2026-11-17,Backpack,Accessories,West,11,2840.49,31245.39,Orbit Co,Ishita
+2026-12-18,Mechanical Keyboard,Electronics,North,5,7797.63,38988.15,Alpha Corp,Kabir
+2026-01-19,Standing Desk,Furniture,West,4,20937.01,83748.04,BlueSky,Meera
+2026-02-20,Backpack,Accessories,North,10,2982.84,29828.4,Orbit Co,Ishita
+2026-03-21,Yoga Mat,Sports,East,11,1543.89,16982.79,Orbit Co,Anaya
+2026-04-22,Wireless Headphones,Electronics,East,4,6658.58,26634.32,Vertex Inc,Rohan
+2026-05-23,Yoga Mat,Sports,West,5,1381.08,6905.4,BlueSky,Aarav
+2026-06-24,Wireless Headphones,Electronics,East,8,6415.4,51323.2,Orbit Co,Meera
+2026-07-25,Running Shoes,Sports,East,9,4770.93,42938.37,Orbit Co,Anaya
+2026-08-26,Desk Lamp,Furniture,North,1,3093.57,3093.57,Zenith Ltd,Meera
+2026-09-27,Backpack,Accessories,South,7,2872.13,20104.91,Alpha Corp,Meera
+2026-10-01,Laptop Pro,Electronics,South,7,89391.93,625743.51,Orbit Co,Kabir
+2026-11-02,Running Shoes,Sports,South,3,4889.9,14669.7,Zenith Ltd,Rohan
+2026-12-03,Yoga Mat,Sports,South,5,1499.92,7499.6,Nova Retail,Anaya
+2026-01-04,Mechanical Keyboard,Electronics,South,1,6900.42,6900.42,Alpha Corp,Meera
+2026-02-05,Backpack,Accessories,East,10,2938.61,29386.1,Vertex Inc,Kabir
+2026-03-06,Wireless Headphones,Electronics,West,9,6743.95,60695.55,Nova Retail,Kabir
+2026-04-07,Yoga Mat,Sports,East,2,1503.43,3006.86,Orbit Co,Kabir
+2026-05-08,Smart Watch,Wearables,West,6,8719.68,52318.08,BlueSky,Ishita
+2026-06-09,Laptop Pro,Electronics,East,11,84974.39,934718.29,Vertex Inc,Aarav
+2026-07-10,Laptop Pro,Electronics,West,11,79819.14,878010.54,Orbit Co,Kabir
+2026-08-11,Mechanical Keyboard,Electronics,West,3,7774.63,23323.89,Alpha Corp,Kabir
+2026-09-12,Backpack,Accessories,East,3,2579.17,7737.51,Nova Retail,Meera
+2026-10-13,Desk Lamp,Furniture,West,10,3204.09,32040.9,Nova Retail,Ishita
+2026-11-14,Desk Lamp,Furniture,South,11,3446.86,37915.46,Zenith Ltd,Rohan
+2026-12-15,Laptop Pro,Electronics,West,7,85655.65,599589.55,Vertex Inc,Aarav
+2026-01-16,Yoga Mat,Sports,East,8,1611.13,12889.04,Vertex Inc,Kabir
+2026-02-17,Running Shoes,Sports,West,3,5266.8,15800.4,Alpha Corp,Rohan
+2026-03-18,Running Shoes,Sports,North,3,4760.63,14281.89,Nova Retail,Kabir
+2026-04-19,Mechanical Keyboard,Electronics,North,3,7717.69,23153.07,BlueSky,Kabir
+2026-05-20,Yoga Mat,Sports,South,6,1610.91,9665.46,Zenith Ltd,Kabir
+2026-06-21,Backpack,Accessories,West,4,2854.08,11416.32,Orbit Co,Aarav
+2026-07-22,Smart Watch,Wearables,West,6,8847.32,53083.92,Orbit Co,Kabir
+2026-08-23,Wireless Headphones,Electronics,West,4,6942.83,27771.32,BlueSky,Anaya
+2026-09-24,Office Chair,Furniture,East,6,11124.38,66746.28,BlueSky,Anaya
+2026-10-25,Mechanical Keyboard,Electronics,North,11,7394.07,81334.77,Zenith Ltd,Anaya
+2026-11-26,Running Shoes,Sports,East,12,5333.99,64007.88,Vertex Inc,Aarav
+2026-12-27,Smart Watch,Wearables,North,8,9390.76,75126.08,BlueSky,Ishita
+2026-01-01,Desk Lamp,Furniture,East,5,3125.07,15625.35,Zenith Ltd,Meera
+2026-02-02,Wireless Headphones,Electronics,West,9,6080.26,54722.34,Vertex Inc,Aarav
+2026-03-03,Smart Watch,Wearables,North,3,9208.47,27625.41,Orbit Co,Anaya
+2026-04-04,Running Shoes,Sports,East,7,4914.06,34398.42,Zenith Ltd,Meera
+2026-05-05,Office Chair,Furniture,West,9,12452.47,112072.23,Vertex Inc,Kabir
+2026-06-06,Office Chair,Furniture,North,4,11690.36,46761.44,Orbit Co,Aarav
+2026-07-07,Mechanical Keyboard,Electronics,South,1,7922.32,7922.32,BlueSky,Anaya
+2026-08-08,Yoga Mat,Sports,East,4,1517.69,6070.76,Vertex Inc,Meera
+2026-09-09,Office Chair,Furniture,South,4,12329.38,49317.52,BlueSky,Aarav
+2026-10-10,Smart Watch,Wearables,West,1,9349.93,9349.93,Zenith Ltd,Meera
+2026-11-11,Yoga Mat,Sports,North,10,1595.1,15951.0,BlueSky,Rohan
+2026-12-12,Mechanical Keyboard,Electronics,South,5,7629.22,38146.1,Zenith Ltd,Aarav
+2026-01-13,Running Shoes,Sports,North,11,5055.19,55607.09,Zenith Ltd,Aarav
+2026-02-14,Mechanical Keyboard,Electronics,East,2,7046.21,14092.42,Nova Retail,Aarav
+2026-03-15,Backpack,Accessories,West,11,2918.27,32100.97,Zenith Ltd,Rohan
+2026-04-16,Laptop Pro,Electronics,North,8,86227.34,689818.72,Alpha Corp,Rohan
+2026-05-17,Backpack,Accessories,East,2,2792.71,5585.42,Vertex Inc,Kabir
+2026-06-18,Running Shoes,Sports,South,9,5054.76,45492.84,BlueSky,Meera
+2026-07-19,Smart Watch,Wearables,North,10,9053.38,90533.8,Nova Retail,Meera
+2026-08-20,Laptop Pro,Electronics,East,9,81845.59,736610.31,Alpha Corp,Ishita
+2026-09-21,Smart Watch,Wearables,North,12,8408.91,100906.92,Orbit Co,Anaya
+2026-10-22,Mechanical Keyboard,Electronics,North,10,7390.83,73908.3,Zenith Ltd,Rohan
+2026-11-23,Running Shoes,Sports,North,11,5389.0,59279.0,Vertex Inc,Anaya
+2026-12-24,Desk Lamp,Furniture,West,3,3164.84,9494.52,Nova Retail,Kabir
+2026-01-25,Desk Lamp,Furniture,South,4,3001.28,12005.12,Zenith Ltd,Meera
+2026-02-26,Wireless Headphones,Electronics,North,12,6913.31,82959.72,Orbit Co,Meera
+2026-03-27,Standing Desk,Furniture,East,5,20948.13,104740.65,Vertex Inc,Aarav
+2026-04-01,Desk Lamp,Furniture,East,12,2952.08,35424.96,Nova Retail,Anaya
+2026-05-02,Laptop Pro,Electronics,East,11,88019.01,968209.11,BlueSky,Kabir
+2026-06-03,Office Chair,Furniture,East,10,12253.88,122538.8,Zenith Ltd,Aarav
+2026-07-04,Laptop Pro,Electronics,East,12,80582.35,966988.2,Orbit Co,Aarav
+2026-08-05,Backpack,Accessories,South,2,2729.64,5459.28,Zenith Ltd,Anaya
+2026-09-06,Backpack,Accessories,East,2,2984.45,5968.9,Orbit Co,Meera
+2026-10-07,Wireless Headphones,Electronics,West,9,6565.95,59093.55,Nova Retail,Kabir
+2026-11-08,Smart Watch,Wearables,South,11,8310.55,91416.05,Vertex Inc,Kabir
+2026-12-09,Mechanical Keyboard,Electronics,West,7,7829.3,54805.1,Nova Retail,Anaya
+2026-01-10,Office Chair,Furniture,South,3,11064.72,33194.16,Vertex Inc,Rohan
+2026-02-11,Mechanical Keyboard,Electronics,North,7,6933.12,48531.84,Orbit Co,Aarav
+2026-03-12,Standing Desk,Furniture,North,10,22120.32,221203.2,Zenith Ltd,Kabir
+2026-04-13,Desk Lamp,Furniture,West,9,3397.28,30575.52,Vertex Inc,Meera
+2026-05-14,Laptop Pro,Electronics,East,4,80980.44,323921.76,Orbit Co,Aarav
+2026-06-15,Wireless Headphones,Electronics,South,10,6892.71,68927.1,Orbit Co,Anaya
+2026-07-16,Desk Lamp,Furniture,West,10,3415.28,34152.8,Alpha Corp,Rohan
+2026-08-17,Laptop Pro,Electronics,South,8,80498.04,643984.32,Vertex Inc,Ishita
+2026-09-18,Backpack,Accessories,South,12,2970.52,35646.24,Alpha Corp,Anaya
+2026-10-19,Desk Lamp,Furniture,South,7,2976.12,20832.84,Nova Retail,Aarav
+2026-11-20,Yoga Mat,Sports,South,10,1569.13,15691.3,Vertex Inc,Ishita
+2026-12-21,Laptop Pro,Electronics,South,4,79475.64,317902.56,Alpha Corp,Aarav
+2026-01-22,Backpack,Accessories,South,1,2756.09,2756.09,Vertex Inc,Aarav
+2026-02-23,Mechanical Keyboard,Electronics,West,11,7593.67,83530.37,Zenith Ltd,Aarav
+2026-03-24,Office Chair,Furniture,North,8,11074.99,88599.92,Vertex Inc,Aarav
+2026-04-25,Office Chair,Furniture,South,3,12589.56,37768.68,BlueSky,Rohan
+2026-05-26,Running Shoes,Sports,West,2,5007.85,10015.7,Alpha Corp,Aarav
+2026-06-27,Laptop Pro,Electronics,North,9,87016.27,783146.43,BlueSky,Rohan
+2026-07-01,Desk Lamp,Furniture,North,10,3248.41,32484.1,Vertex Inc,Aarav
+2026-08-02,Mechanical Keyboard,Electronics,West,10,7249.16,72491.6,Vertex Inc,Aarav
+2026-09-03,Mechanical Keyboard,Electronics,South,12,7150.24,85802.88,BlueSky,Anaya
+2026-10-04,Standing Desk,Furniture,South,2,22732.62,45465.24,Vertex Inc,Anaya
+2026-11-05,Wireless Headphones,Electronics,East,10,6995.51,69955.1,Vertex Inc,Aarav
+2026-12-06,Wireless Headphones,Electronics,North,12,6228.49,74741.88,Alpha Corp,Kabir
+2026-01-07,Smart Watch,Wearables,East,5,8725.26,43626.3,Nova Retail,Anaya
+2026-02-08,Desk Lamp,Furniture,South,10,3445.03,34450.3,Alpha Corp,Aarav
+2026-03-09,Wireless Headphones,Electronics,South,1,6098.22,6098.22,BlueSky,Anaya
+2026-04-10,Backpack,Accessories,South,7,2989.86,20929.02,Vertex Inc,Aarav
+2026-05-11,Laptop Pro,Electronics,North,1,87946.72,87946.72,Vertex Inc,Ishita
+2026-06-12,Office Chair,Furniture,North,7,12578.16,88047.12,Nova Retail,Rohan
+2026-07-13,Smart Watch,Wearables,South,8,8647.87,69182.96,Zenith Ltd,Kabir
+2026-08-14,Running Shoes,Sports,North,1,4859.53,4859.53,Nova Retail,Anaya
+2026-09-15,Office Chair,Furniture,West,11,12299.32,135292.52,BlueSky,Kabir
+2026-10-16,Smart Watch,Wearables,North,4,8298.95,33195.8,Zenith Ltd,Meera
+2026-11-17,Mechanical Keyboard,Electronics,East,6,8005.08,48030.48,Alpha Corp,Meera
+2026-12-18,Running Shoes,Sports,North,2,5025.61,10051.22,Alpha Corp,Kabir
+2026-01-19,Yoga Mat,Sports,North,11,1460.87,16069.57,BlueSky,Aarav
+2026-02-20,Backpack,Accessories,North,3,2670.76,8012.28,Vertex Inc,Ishita
+2026-03-21,Mechanical Keyboard,Electronics,West,4,8025.53,32102.12,BlueSky,Ishita
+2026-04-22,Wireless Headphones,Electronics,East,11,6200.87,68209.57,Alpha Corp,Ishita
+2026-05-23,Smart Watch,Wearables,South,7,9310.76,65175.32,BlueSky,Anaya
+2026-06-24,Desk Lamp,Furniture,East,11,3029.21,33321.31,Orbit Co,Meera
+2026-07-25,Running Shoes,Sports,North,5,5368.47,26842.35,Vertex Inc,Meera
+2026-08-26,Smart Watch,Wearables,South,10,9668.61,96686.1,Vertex Inc,Aarav
+2026-09-27,Desk Lamp,Furniture,East,2,3299.8,6599.6,Alpha Corp,Aarav
+2026-10-01,Wireless Headphones,Electronics,East,9,5995.12,53956.08,Alpha Corp,Meera
+2026-11-02,Mechanical Keyboard,Electronics,East,2,7766.93,15533.86,Orbit Co,Meera
+2026-12-03,Wireless Headphones,Electronics,West,5,6295.29,31476.45,Vertex Inc,Ishita
+2026-01-04,Office Chair,Furniture,North,8,12939.46,103515.68,Orbit Co,Kabir
+2026-02-05,Running Shoes,Sports,South,4,4624.56,18498.24,Alpha Corp,Meera
+2026-03-06,Running Shoes,Sports,North,11,4868.44,53552.84,Nova Retail,Aarav
+2026-04-07,Wireless Headphones,Electronics,East,3,6793.74,20381.22,Vertex Inc,Kabir
+2026-05-08,Office Chair,Furniture,North,1,11315.83,11315.83,Alpha Corp,Anaya
+2026-06-09,Smart Watch,Wearables,South,11,8408.08,92488.88,Alpha Corp,Aarav
+2026-07-10,Smart Watch,Wearables,South,1,8666.39,8666.39,Zenith Ltd,Kabir
+2026-08-11,Mechanical Keyboard,Electronics,East,12,7111.59,85339.08,Vertex Inc,Kabir
+2026-09-12,Running Shoes,Sports,North,6,4732.98,28397.88,Nova Retail,Meera
+2026-10-13,Smart Watch,Wearables,North,7,9622.45,67357.15,Nova Retail,Ishita
+2026-11-14,Standing Desk,Furniture,East,4,22924.51,91698.04,Nova Retail,Ishita
+2026-12-15,Backpack,Accessories,North,5,2965.61,14828.05,Alpha Corp,Ishita
+2026-01-16,Yoga Mat,Sports,North,6,1436.36,8618.16,Orbit Co,Anaya
+2026-02-17,Backpack,Accessories,West,2,2625.23,5250.46,Alpha Corp,Anaya
+2026-03-18,Wireless Headphones,Electronics,South,8,6478.7,51829.6,Nova Retail,Anaya
+2026-04-19,Backpack,Accessories,North,1,2629.0,2629.0,Zenith Ltd,Kabir
+2026-05-20,Backpack,Accessories,East,8,2683.11,21464.88,BlueSky,Aarav
+2026-06-21,Wireless Headphones,Electronics,South,9,6211.3,55901.7,BlueSky,Rohan
+2026-07-22,Yoga Mat,Sports,West,2,1394.38,2788.76,BlueSky,Aarav
+2026-08-23,Standing Desk,Furniture,East,9,20840.68,187566.12,Nova Retail,Aarav
+2026-09-24,Wireless Headphones,Electronics,West,8,6255.92,50047.36,Vertex Inc,Meera
+2026-10-25,Wireless Headphones,Electronics,North,8,6636.24,53089.92,Nova Retail,Kabir
+2026-11-26,Running Shoes,Sports,West,2,4695.77,9391.54,Orbit Co,Kabir
+2026-12-27,Office Chair,Furniture,North,9,11060.89,99548.01,Vertex Inc,Anaya
+2026-01-01,Laptop Pro,Electronics,West,9,87018.63,783167.67,Vertex Inc,Rohan
+2026-02-02,Office Chair,Furniture,West,11,11739.82,129138.02,Zenith Ltd,Ishita
+2026-03-03,Laptop Pro,Electronics,South,6,87127.82,522766.92,Vertex Inc,Meera
+2026-04-04,Laptop Pro,Electronics,North,10,84435.38,844353.8,Orbit Co,Meera
+2026-05-05,Laptop Pro,Electronics,South,5,84170.61,420853.05,Nova Retail,Kabir
+2026-06-06,Running Shoes,Sports,North,10,4759.49,47594.9,Orbit Co,Aarav
+2026-07-07,Office Chair,Furniture,West,1,11731.05,11731.05,Nova Retail,Aarav
+2026-08-08,Backpack,Accessories,West,6,2805.22,16831.32,Vertex Inc,Meera
+2026-09-09,Desk Lamp,Furniture,West,4,3042.51,12170.04,Nova Retail,Kabir
+2026-10-10,Backpack,Accessories,East,5,2677.37,13386.85,Alpha Corp,Anaya
+2026-11-11,Office Chair,Furniture,North,6,11833.07,70998.42,BlueSky,Kabir
+2026-12-12,Office Chair,Furniture,North,4,12629.81,50519.24,Nova Retail,Rohan
+2026-01-13,Smart Watch,Wearables,West,10,8933.99,89339.9,Nova Retail,Kabir
+2026-02-14,Standing Desk,Furniture,West,9,20664.29,185978.61,Nova Retail,Meera
+2026-03-15,Mechanical Keyboard,Electronics,North,3,7597.7,22793.1,Nova Retail,Meera
+2026-04-16,Yoga Mat,Sports,West,3,1399.25,4197.75,Orbit Co,Kabir
+2026-05-17,Desk Lamp,Furniture,South,11,3058.16,33639.76,Vertex Inc,Kabir
+2026-06-18,Yoga Mat,Sports,North,2,1392.38,2784.76,Alpha Corp,Kabir
+2026-07-19,Wireless Headphones,Electronics,South,5,6763.6,33818.0,Nova Retail,Anaya
+2026-08-20,Wireless Headphones,Electronics,East,9,6371.92,57347.28,Vertex Inc,Ishita
+2026-09-21,Mechanical Keyboard,Electronics,South,10,7039.92,70399.2,Orbit Co,Ishita
+2026-10-22,Mechanical Keyboard,Electronics,East,10,7715.78,77157.8,BlueSky,Rohan
+2026-11-23,Standing Desk,Furniture,East,7,20507.6,143553.2,BlueSky,Anaya
+2026-12-24,Office Chair,Furniture,South,12,12876.65,154519.8,Orbit Co,Kabir
+2026-01-25,Mechanical Keyboard,Electronics,North,5,7712.88,38564.4,Vertex Inc,Ishita
+2026-02-26,Laptop Pro,Electronics,South,10,87480.45,874804.5,Vertex Inc,Kabir
+2026-03-27,Laptop Pro,Electronics,South,8,84664.71,677317.68,Orbit Co,Kabir
+2026-04-01,Standing Desk,Furniture,South,7,20553.11,143871.77,BlueSky,Anaya
+2026-05-02,Yoga Mat,Sports,South,3,1596.02,4788.06,Zenith Ltd,Ishita
+2026-06-03,Running Shoes,Sports,East,7,5130.67,35914.69,Nova Retail,Meera
+2026-07-04,Standing Desk,Furniture,South,5,20638.1,103190.5,Orbit Co,Rohan
+2026-08-05,Yoga Mat,Sports,West,11,1398.67,15385.37,Zenith Ltd,Rohan
+2026-09-06,Mechanical Keyboard,Electronics,West,6,7314.12,43884.72,Zenith Ltd,Meera
+2026-10-07,Backpack,Accessories,South,12,2583.89,31006.68,Orbit Co,Kabir
+2026-11-08,Wireless Headphones,Electronics,South,11,6777.45,74551.95,Vertex Inc,Meera
+2026-12-09,Desk Lamp,Furniture,East,4,3133.04,12532.16,Vertex Inc,Kabir
+2026-01-10,Office Chair,Furniture,North,2,12194.16,24388.32,Nova Retail,Aarav
+2026-02-11,Desk Lamp,Furniture,East,9,3155.08,28395.72,Alpha Corp,Aarav
+2026-03-12,Laptop Pro,Electronics,South,3,79366.61,238099.83,Alpha Corp,Meera
+2026-04-13,Standing Desk,Furniture,South,3,21173.27,63519.81,Alpha Corp,Aarav
+2026-05-14,Wireless Headphones,Electronics,South,2,6951.99,13903.98,Nova Retail,Anaya
+2026-06-15,Running Shoes,Sports,East,2,5017.86,10035.72,Zenith Ltd,Anaya
+2026-07-16,Backpack,Accessories,North,5,2725.19,13625.95,Zenith Ltd,Meera
+2026-08-17,Smart Watch,Wearables,North,2,8371.3,16742.6,Vertex Inc,Kabir
+2026-09-18,Office Chair,Furniture,West,12,11671.01,140052.12,Nova Retail,Meera
+2026-10-19,Desk Lamp,Furniture,South,9,3356.24,30206.16,Vertex Inc,Anaya
+2026-11-20,Yoga Mat,Sports,South,5,1552.08,7760.4,Zenith Ltd,Aarav
+2026-12-21,Backpack,Accessories,South,2,2605.41,5210.82,Nova Retail,Ishita
+2026-01-22,Backpack,Accessories,South,8,2930.49,23443.92,BlueSky,Aarav
+2026-02-23,Backpack,Accessories,North,10,2771.09,27710.9,Nova Retail,Rohan
+2026-03-24,Standing Desk,Furniture,West,2,23196.6,46393.2,Nova Retail,Kabir
+2026-04-25,Mechanical Keyboard,Electronics,East,7,7526.22,52683.54,Vertex Inc,Aarav
+2026-05-26,Laptop Pro,Electronics,South,4,88051.3,352205.2,BlueSky,Kabir
+2026-06-27,Standing Desk,Furniture,West,11,22766.92,250436.12,BlueSky,Meera
+2026-07-01,Office Chair,Furniture,East,4,12933.6,51734.4,Nova Retail,Meera
+2026-08-02,Laptop Pro,Electronics,East,4,84495.84,337983.36,Vertex Inc,Ishita
+2026-09-03,Smart Watch,Wearables,East,7,8734.26,61139.82,Alpha Corp,Rohan
+2026-10-04,Running Shoes,Sports,East,2,4834.77,9669.54,BlueSky,Meera
+2026-11-05,Office Chair,Furniture,South,3,12828.8,38486.4,Orbit Co,Aarav
+2026-12-06,Standing Desk,Furniture,East,6,20660.94,123965.64,Vertex Inc,Ishita
+2026-01-07,Backpack,Accessories,North,9,2715.22,24436.98,Alpha Corp,Ishita
+2026-02-08,Wireless Headphones,Electronics,West,10,6382.51,63825.1,Alpha Corp,Kabir
+2026-03-09,Mechanical Keyboard,Electronics,West,4,7439.55,29758.2,Vertex Inc,Anaya
+2026-04-10,Running Shoes,Sports,East,9,4957.48,44617.32,BlueSky,Aarav
+2026-05-11,Wireless Headphones,Electronics,East,8,6071.38,48571.04,Nova Retail,Aarav
+2026-06-12,Mechanical Keyboard,Electronics,North,3,6975.84,20927.52,Zenith Ltd,Ishita
+2026-07-13,Wireless Headphones,Electronics,West,11,6781.59,74597.49,BlueSky,Aarav
+2026-08-14,Office Chair,Furniture,North,7,12379.1,86653.7,Alpha Corp,Kabir
+2026-09-15,Office Chair,Furniture,North,9,11244.57,101201.13,Zenith Ltd,Meera
+2026-10-16,Mechanical Keyboard,Electronics,South,10,7899.71,78997.1,Nova Retail,Meera
+2026-11-17,Yoga Mat,Sports,East,7,1549.9,10849.3,Alpha Corp,Meera
+2026-12-18,Backpack,Accessories,East,9,2628.41,23655.69,Vertex Inc,Ishita
+2026-01-19,Yoga Mat,Sports,South,8,1434.35,11474.8,BlueSky,Kabir
+2026-02-20,Backpack,Accessories,South,7,2896.78,20277.46,Vertex Inc,Meera
+2026-03-21,Backpack,Accessories,East,2,2964.61,5929.22,Nova Retail,Aarav
+2026-04-22,Smart Watch,Wearables,South,9,8955.67,80601.03,BlueSky,Kabir
+2026-05-23,Running Shoes,Sports,East,3,5183.51,15550.53,Vertex Inc,Meera
+2026-06-24,Yoga Mat,Sports,South,1,1577.2,1577.2,BlueSky,Kabir
+2026-07-25,Laptop Pro,Electronics,North,5,86448.76,432243.8,Zenith Ltd,Meera
+2026-08-26,Running Shoes,Sports,East,5,5359.69,26798.45,Zenith Ltd,Rohan
+2026-09-27,Running Shoes,Sports,North,7,4902.59,34318.13,Nova Retail,Aarav
+2026-10-01,Yoga Mat,Sports,South,11,1564.74,17212.14,Vertex Inc,Aarav
+2026-11-02,Office Chair,Furniture,East,3,12600.99,37802.97,BlueSky,Ishita
+2026-12-03,Running Shoes,Sports,East,7,4949.59,34647.13,Nova Retail,Meera
+2026-01-04,Mechanical Keyboard,Electronics,North,12,7303.69,87644.28,Zenith Ltd,Meera
+2026-02-05,Running Shoes,Sports,North,3,5285.74,15857.22,BlueSky,Anaya
+2026-03-06,Running Shoes,Sports,South,8,5226.33,41810.64,Vertex Inc,Kabir
+2026-04-07,Running Shoes,Sports,North,4,4651.21,18604.84,Zenith Ltd,Aarav
+2026-05-08,Laptop Pro,Electronics,North,4,83232.39,332929.56,Orbit Co,Ishita
+2026-06-09,Laptop Pro,Electronics,West,4,89894.73,359578.92,Zenith Ltd,Anaya
+2026-07-10,Yoga Mat,Sports,West,5,1533.27,7666.35,Zenith Ltd,Kabir
+2026-08-11,Smart Watch,Wearables,North,12,9538.48,114461.76,BlueSky,Rohan
+2026-09-12,Mechanical Keyboard,Electronics,West,2,7480.83,14961.66,Alpha Corp,Ishita
+2026-10-13,Standing Desk,Furniture,East,4,20973.64,83894.56,Vertex Inc,Ishita
+2026-11-14,Wireless Headphones,Electronics,North,11,6930.9,76239.9,Orbit Co,Rohan
+2026-12-15,Desk Lamp,Furniture,South,7,2956.1,20692.7,Orbit Co,Aarav
+2026-01-16,Office Chair,Furniture,East,9,11598.71,104388.39,Alpha Corp,Meera
+2026-02-17,Desk Lamp,Furniture,West,1,3056.13,3056.13,Nova Retail,Anaya
+2026-03-18,Wireless Headphones,Electronics,East,7,6189.79,43328.53,Zenith Ltd,Rohan
+2026-04-19,Office Chair,Furniture,North,8,12089.99,96719.92,Vertex Inc,Meera
+2026-05-20,Desk Lamp,Furniture,South,7,3455.98,24191.86,Nova Retail,Aarav
+2026-06-21,Mechanical Keyboard,Electronics,East,2,7942.16,15884.32,Alpha Corp,Aarav
+2026-07-22,Standing Desk,Furniture,South,9,20322.45,182902.05,BlueSky,Anaya
+2026-08-23,Office Chair,Furniture,South,9,11449.69,103047.21,Vertex Inc,Anaya
+2026-09-24,Laptop Pro,Electronics,East,7,80053.02,560371.14,BlueSky,Kabir
+2026-10-25,Standing Desk,Furniture,West,7,21001.85,147012.95,Alpha Corp,Aarav
+2026-11-26,Laptop Pro,Electronics,South,6,90484.0,542904.0,Vertex Inc,Meera
+2026-12-27,Mechanical Keyboard,Electronics,South,5,7178.5,35892.5,Nova Retail,Rohan
+2026-01-01,Office Chair,Furniture,North,4,12913.97,51655.88,Vertex Inc,Anaya
+2026-02-02,Desk Lamp,Furniture,West,12,3054.51,36654.12,BlueSky,Aarav
+2026-03-03,Backpack,Accessories,North,1,2774.3,2774.3,Alpha Corp,Rohan
+2026-04-04,Yoga Mat,Sports,South,3,1456.78,4370.34,Vertex Inc,Meera
+2026-05-05,Mechanical Keyboard,Electronics,South,6,7389.91,44339.46,Nova Retail,Meera
+2026-06-06,Office Chair,Furniture,West,7,11724.57,82071.99,Zenith Ltd,Kabir
+2026-07-07,Office Chair,Furniture,North,11,11459.54,126054.94,Nova Retail,Meera
+2026-08-08,Desk Lamp,Furniture,East,6,3007.73,18046.38,Nova Retail,Anaya
+2026-09-09,Backpack,Accessories,West,8,2920.38,23363.04,Orbit Co,Kabir
+2026-10-10,Backpack,Accessories,South,9,2664.68,23982.12,BlueSky,Meera
+2026-11-11,Standing Desk,Furniture,West,2,21478.26,42956.52,Alpha Corp,Anaya
+2026-12-12,Wireless Headphones,Electronics,East,6,6743.41,40460.46,Zenith Ltd,Ishita
+2026-01-13,Yoga Mat,Sports,North,11,1416.56,15582.16,Alpha Corp,Ishita
+2026-02-14,Backpack,Accessories,West,6,2803.99,16823.94,Orbit Co,Rohan
+2026-03-15,Smart Watch,Wearables,North,3,9078.08,27234.24,Vertex Inc,Meera
+2026-04-16,Running Shoes,Sports,East,11,5281.26,58093.86,BlueSky,Rohan
+2026-05-17,Standing Desk,Furniture,South,6,23059.72,138358.32,BlueSky,Rohan
+2026-06-18,Yoga Mat,Sports,North,11,1423.78,15661.58,Nova Retail,Aarav
+2026-07-19,Desk Lamp,Furniture,West,6,3356.96,20141.76,Orbit Co,Kabir
+2026-08-20,Running Shoes,Sports,East,9,5316.12,47845.08,BlueSky,Rohan
+2026-09-21,Running Shoes,Sports,North,11,5350.36,58853.96,Zenith Ltd,Kabir
+2026-10-22,Yoga Mat,Sports,East,10,1526.2,15262.0,Alpha Corp,Kabir
+2026-11-23,Yoga Mat,Sports,North,2,1467.09,2934.18,Zenith Ltd,Kabir
+2026-12-24,Smart Watch,Wearables,West,8,8510.72,68085.76,Alpha Corp,Aarav
+2026-01-25,Standing Desk,Furniture,South,4,20449.36,81797.44,Nova Retail,Kabir
+2026-02-26,Standing Desk,Furniture,East,4,20442.71,81770.84,Alpha Corp,Ishita
+2026-03-27,Wireless Headphones,Electronics,North,3,6552.93,19658.79,Nova Retail,Anaya
+2026-04-01,Standing Desk,Furniture,West,1,22873.14,22873.14,Orbit Co,Aarav

@@ -60,17 +60,30 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# CORS Configuration from Environment Variables (Requirement 8)
-default_origins = "http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000"
-env_origins = os.environ.get("ALLOWED_ORIGINS", default_origins)
-allowed_origins = [origin.strip() for origin in env_origins.split(",") if origin.strip()]
+# CORS Configuration from Environment Variables & Vercel Support
+default_origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+]
+env_origins_str = os.environ.get("ALLOWED_ORIGINS", "")
+if env_origins_str.strip() == "*":
+    allowed_origins = ["*"]
+    allow_credentials = False
+else:
+    custom_origins = [origin.strip() for origin in env_origins_str.split(",") if origin.strip()]
+    allowed_origins = list(dict.fromkeys(default_origins + custom_origins))
+    allow_credentials = True
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=allowed_origins,
-    allow_credentials=True,
-    allow_methods=["GET", "POST", "DELETE", "OPTIONS"],
+    allow_origin_regex=r"^https://.*\.vercel\.app$",
+    allow_credentials=allow_credentials,
+    allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["Content-Disposition"],
 )
 
 # Request Logging & Security Headers Middleware (Requirements 5, 7)
@@ -88,8 +101,8 @@ async def security_and_logging_middleware(request: Request, call_next):
     response.headers["X-XSS-Protection"] = "1; mode=block"
     response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
     
-    # Structured access log (no sensitive credentials logged)
-    if not request.url.path.startswith("/api/health"):
+    # Structured access log (no sensitive credentials logged, suppress health ping spam)
+    if not (request.url.path.startswith("/api/health") or request.url.path.startswith("/health")):
         app_logger.info(
             f"{request.method} {request.url.path} -> {response.status_code} ({duration_ms}ms)",
             extra={"extra_data": {
@@ -108,31 +121,47 @@ app.add_exception_handler(HTTPException, http_exception_handler)
 app.add_exception_handler(RequestValidationError, validation_exception_handler)
 app.add_exception_handler(Exception, global_exception_handler)
 
-# Register API Routers
+# Register API Routers (prefixed with /api)
 app.include_router(upload_router)
 app.include_router(profile_router)
 app.include_router(analyze_router)
 app.include_router(chat_router)
 app.include_router(export_router)
 
-@app.get("/api/health", status_code=status.HTTP_200_OK)
+# Route aliases without /api prefix to support direct proxy / standard container health checks
+@app.get("/health", status_code=status.HTTP_200_OK, tags=["System Health"])
+@app.get("/api/health", status_code=status.HTTP_200_OK, tags=["System Health"])
 def health():
     return {
-        "success": True,
         "status": "ok",
         "service": "InsightForge AI"
     }
 
-@app.get("/api", status_code=status.HTTP_200_OK)
+@app.get("/", status_code=status.HTTP_200_OK, tags=["System Root"])
+@app.get("/api", status_code=status.HTTP_200_OK, tags=["System Root"])
 def root():
     return {
         "success": True,
         "name": "InsightForge AI",
         "version": "0.1.0",
+        "status": "online",
         "security": "Sandboxed Pandas AST + Pydantic AI Validation"
     }
+
+@app.get("/sample", include_in_schema=False)
+async def sample_root_alias():
+    """Alias for /api/sample directly at root level."""
+    from app.api.upload import load_sample_dataset
+    return await load_sample_dataset()
 
 @app.get("/api/test-backend-failure", include_in_schema=False)
 def test_backend_failure():
     """Diagnostic route to test unhandled exception formatting in production."""
     raise RuntimeError("Simulated unexpected internal engine failure")
+
+if __name__ == "__main__":
+    import uvicorn
+    # Support Railway dynamic PORT environment variable (default 8000)
+    server_port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("app.main:app", host="0.0.0.0", port=server_port, reload=False)
+

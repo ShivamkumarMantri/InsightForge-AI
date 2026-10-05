@@ -11,6 +11,7 @@ import {
   Loader2,
   RefreshCw
 } from 'lucide-react';
+import { apiFetch } from '../utils/api';
 
 /**
  * DatasetUploader Component
@@ -108,44 +109,10 @@ export default function DatasetUploader({
       const formData = new FormData();
       formData.append('file', file);
 
-      // Support proxy (/api/upload) with fallback to http://127.0.0.1:8000/api/upload
-      let response;
-      try {
-        response = await fetch('/api/upload', {
-          method: 'POST',
-          body: formData,
-        });
-      } catch (proxyErr) {
-        // Fallback directly to localhost:8000 if proxy routing is unavailable
-        response = await fetch('http://127.0.0.1:8000/api/upload', {
-          method: 'POST',
-          body: formData,
-        });
-      }
-
-      if (!response.ok) {
-        let errorMsg = 'Failed to process dataset on the server.';
-        try {
-          const errData = await response.json();
-          if (errData && errData.error && errData.error.message) {
-            errorMsg = errData.error.message;
-          } else if (errData && errData.detail) {
-            // Clean up message, avoid raw stack traces
-            errorMsg = typeof errData.detail === 'string'
-              ? errData.detail.split('\n')[0]
-              : JSON.stringify(errData.detail);
-          }
-        } catch (_) {
-          if (response.status === 413) {
-            errorMsg = 'File size exceeds the maximum limit of 25 MB.';
-          } else if (response.status === 422) {
-            errorMsg = 'Unable to parse dataset. The file appears to be corrupted or invalid.';
-          } else if (response.status === 500) {
-            errorMsg = 'Internal analysis engine error. Please try again.';
-          }
-        }
-        throw new Error(errorMsg);
-      }
+      const response = await apiFetch('/api/upload', {
+        method: 'POST',
+        body: formData,
+      });
 
       const result = await response.json();
 
@@ -154,11 +121,7 @@ export default function DatasetUploader({
       onUploadSuccess(result);
     } catch (err) {
       console.error('Dataset upload error:', err);
-      let userFriendlyMsg = err.message || 'An unexpected error occurred during upload.';
-      if (userFriendlyMsg.includes('Failed to fetch') || userFriendlyMsg.includes('NetworkError')) {
-        userFriendlyMsg = 'Cannot connect to analysis backend. Please ensure the API server is running on port 8000.';
-      }
-      setUploadError(userFriendlyMsg);
+      setUploadError(err.message || 'An unexpected error occurred during upload.');
     } finally {
       setIsUploading(false);
       if (fileInputRef.current) {
@@ -181,24 +144,18 @@ export default function DatasetUploader({
     setUploadError(null);
     setIsUploading(true);
     try {
-      let response;
-      try {
-        response = await fetch('/api/sample');
-      } catch (_) {
-        response = await fetch('http://127.0.0.1:8000/api/sample');
-      }
-      if (!response.ok) {
-        throw new Error('Failed to load sample dataset from backend.');
-      }
+      const response = await apiFetch('/api/sample');
       const result = await response.json();
       setUploadedDataset(result);
       onUploadSuccess(result);
     } catch (err) {
+      console.error('Sample dataset loading error:', err);
       setUploadError(err.message || 'Error loading sample dataset.');
     } finally {
       setIsUploading(false);
     }
   };
+
 
   const handleAnalyzeClick = (e) => {
     if (e) e.stopPropagation();

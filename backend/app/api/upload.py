@@ -130,16 +130,43 @@ async def upload_dataset(file: UploadFile = File(...)):
         columns=cols_count
     )
 
+def find_sample_dataset_path() -> str:
+    """
+    Search multiple candidate locations for sample_data/sales.csv across
+    local development, Render monorepo deployment, and Docker container environments.
+    """
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    candidates = [
+        # 1. Monorepo root / sample_data / sales.csv (4 levels up from app/api)
+        os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(current_dir))), "sample_data", "sales.csv"),
+        # 2. backend / sample_data / sales.csv (3 levels up from app/api)
+        os.path.join(os.path.dirname(os.path.dirname(current_dir)), "sample_data", "sales.csv"),
+        # 3. app / sample_data / sales.csv (2 levels up from app/api)
+        os.path.join(os.path.dirname(current_dir), "sample_data", "sales.csv"),
+        # 4. Working directory / sample_data / sales.csv
+        os.path.join(os.getcwd(), "sample_data", "sales.csv"),
+        # 5. Parent of working directory / sample_data / sales.csv
+        os.path.join(os.path.dirname(os.getcwd()), "sample_data", "sales.csv"),
+        # 6. Docker container WORKDIR /app/sample_data/sales.csv
+        "/app/sample_data/sales.csv"
+    ]
+
+    for candidate in candidates:
+        if candidate and os.path.isfile(candidate):
+            return candidate
+
+    return ""
+
 @router.get("/sample", response_model=UploadResponse, status_code=status.HTTP_200_OK)
+@router.get("/sample-data", response_model=UploadResponse, status_code=status.HTTP_200_OK)
 async def load_sample_dataset():
     """
     Load the bundled sample_data/sales.csv dataset securely into session memory.
     """
-    root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-    sample_path = os.path.join(root_dir, "sample_data", "sales.csv")
+    sample_path = find_sample_dataset_path()
 
-    if not os.path.exists(sample_path):
-        app_logger.error(f"Sample dataset missing at {sample_path}")
+    if not sample_path or not os.path.exists(sample_path):
+        app_logger.error(f"Sample dataset 'sales.csv' could not be located in any candidate directory.")
         raise FileSecurityException(
             message="Sample dataset 'sales.csv' not found on server.",
             code="FILE_NOT_FOUND",
@@ -148,6 +175,7 @@ async def load_sample_dataset():
 
     with open(sample_path, "rb") as f:
         raw_bytes = f.read()
+
 
     try:
         df = pd.read_csv(io.BytesIO(raw_bytes))

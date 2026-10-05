@@ -20,6 +20,7 @@ import {
   downloadDashboardSummary,
   downloadDataAsCSV
 } from '../utils/exportUtils';
+import { apiFetch } from '../utils/api';
 
 /**
  * ExportReportModal Component
@@ -69,11 +70,7 @@ export default function ExportReportModal({
       console.warn('Client PDF generation error, falling back to server PDF endpoint:', err);
       // Fallback to backend ReportLab endpoint
       try {
-        let pdfUrl = `/api/dataset/${datasetId}/export/pdf`;
-        const res = await fetch(pdfUrl);
-        if (!res.ok) {
-          throw new Error('Server PDF compilation failed.');
-        }
+        const res = await apiFetch(`/api/dataset/${datasetId}/export/pdf`);
         const blob = await res.blob();
         const url = URL.createObjectURL(blob);
         const link = document.createElement('a');

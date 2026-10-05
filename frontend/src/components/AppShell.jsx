@@ -5,6 +5,7 @@ import HeroSection from './HeroSection';
 import DatasetUploader from './DatasetUploader';
 import SuggestionCard from './SuggestionCard';
 import DatasetIntelligence from './DatasetIntelligence';
+import { apiFetch } from '../utils/api';
 import {
   TrendingUp,
   BarChart2,
@@ -44,31 +45,24 @@ export default function AppShell() {
   React.useEffect(() => {
     async function fetchServerHistory() {
       try {
-        let res;
-        try {
-          res = await fetch('/api/chat/history');
-        } catch (_) {
-          res = await fetch('http://127.0.0.1:8000/api/chat/history');
-        }
-        if (res.ok) {
-          const serverList = await res.json();
-          if (Array.isArray(serverList) && serverList.length > 0) {
-            setRecentAnalyses((prev) => {
-              const combined = [...prev];
-              serverList.forEach((s) => {
-                if (!combined.some((c) => c.conversation_id === s.conversation_id)) {
-                  combined.push({
-                    conversation_id: s.conversation_id,
-                    dataset_id: s.dataset_id,
-                    filename: s.filename,
-                    last_question: s.last_question,
-                    timestamp: s.updated_at
-                  });
-                }
-              });
-              return combined;
+        const res = await apiFetch('/api/chat/history');
+        const serverList = await res.json();
+        if (Array.isArray(serverList) && serverList.length > 0) {
+          setRecentAnalyses((prev) => {
+            const combined = [...prev];
+            serverList.forEach((s) => {
+              if (!combined.some((c) => c.conversation_id === s.conversation_id)) {
+                combined.push({
+                  conversation_id: s.conversation_id,
+                  dataset_id: s.dataset_id,
+                  filename: s.filename,
+                  last_question: s.last_question,
+                  timestamp: s.updated_at
+                });
+              }
             });
-          }
+            return combined;
+          });
         }
       } catch (e) {
         console.warn('Could not fetch server chat history:', e);

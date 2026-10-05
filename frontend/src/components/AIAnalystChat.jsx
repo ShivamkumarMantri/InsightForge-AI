@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import VisualizationRenderer from './VisualizationRenderer';
+import { apiFetch } from '../utils/api';
 import {
   Sparkles,
   Send,
@@ -108,25 +109,18 @@ export default function AIAnalystChat({
 
   const loadConversationHistory = async (convId) => {
     try {
-      let res;
-      try {
-        res = await fetch(`/api/chat/${convId}`);
-      } catch (_) {
-        res = await fetch(`http://127.0.0.1:8000/api/chat/${convId}`);
-      }
-      if (res.ok) {
-        const data = await res.json();
-        if (data.messages && data.messages.length > 0) {
-          const formatted = data.messages.map((m) => ({
-            id: m.id || String(Math.random()),
-            role: m.role,
-            text: m.text,
-            timestamp: m.timestamp,
-            analysisResult: m.analysis || null,
-            suggestions: m.analysis?.suggestions || []
-          }));
-          setMessages(formatted);
-        }
+      const res = await apiFetch(`/api/chat/${convId}`);
+      const data = await res.json();
+      if (data.messages && data.messages.length > 0) {
+        const formatted = data.messages.map((m) => ({
+          id: m.id || String(Math.random()),
+          role: m.role,
+          text: m.text,
+          timestamp: m.timestamp,
+          analysisResult: m.analysis || null,
+          suggestions: m.analysis?.suggestions || []
+        }));
+        setMessages(formatted);
       }
     } catch (err) {
       console.warn('Could not load prior conversation from server:', err);
@@ -182,25 +176,11 @@ export default function AIAnalystChat({
         payload.conversation_id = conversationId;
       }
 
-      let response;
-      try {
-        response = await fetch('/api/chat', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-      } catch (_) {
-        response = await fetch('http://127.0.0.1:8000/api/chat', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-      }
-
-      if (!response.ok) {
-        const errJson = await response.json().catch(() => ({}));
-        throw new Error(errJson.error?.message || errJson.detail || 'Analysis query execution failed.');
-      }
+      const response = await apiFetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
 
       const result = await response.json();
 

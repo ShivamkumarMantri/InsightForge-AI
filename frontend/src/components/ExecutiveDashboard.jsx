@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import VisualizationRenderer from './VisualizationRenderer';
 import ExportReportModal from './ExportReportModal';
+import { apiFetch } from '../utils/api';
 import {
   Sparkles,
   TrendingUp,
@@ -60,18 +61,7 @@ export default function ExecutiveDashboard({
     setError(null);
 
     try {
-      let res;
-      try {
-        res = await fetch(`/api/dataset/${datasetId}/dashboard`);
-      } catch (_) {
-        res = await fetch(`http://127.0.0.1:8000/api/dataset/${datasetId}/dashboard`);
-      }
-
-      if (!res.ok) {
-        const errJson = await res.json().catch(() => ({}));
-        throw new Error(errJson.error?.message || errJson.detail || 'Failed to synthesize executive dashboard.');
-      }
-
+      const res = await apiFetch(`/api/dataset/${datasetId}/dashboard`);
       const data = await res.json();
       setDashboardData(data);
       if (data.ai_discovered && data.ai_discovered.length > 0) {
